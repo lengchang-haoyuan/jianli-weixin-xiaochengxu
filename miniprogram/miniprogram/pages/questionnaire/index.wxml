@@ -1,0 +1,23 @@
+<view class="screen screen--with-action questionnaire-screen">
+  <view class="page-title">工作方式问卷</view>
+  <view class="page-copy">12 道情境题只作为辅助信号，不证明技术能力。可以全部跳过。</view>
+
+  <view class="question-progress">已回答 {{answeredCount}} / 12</view>
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error">{{errorMessage}}</view>
+
+  <view wx:for="{{questions}}" wx:key="id" class="question-card">
+    <view class="question-card__index">{{item.indexLabel}}</view>
+    <view class="question-card__text">{{item.text}}</view>
+    <view class="answer-row" role="group" aria-label="第{{index + 1}}题答案">
+      <button class="answer-option {{item.answer === 'yes' ? 'answer-option--active' : ''}}" data-id="{{item.id}}" data-answer="yes" bindtap="chooseAnswer">是</button>
+      <button class="answer-option {{item.answer === 'no' ? 'answer-option--active' : ''}}" data-id="{{item.id}}" data-answer="no" bindtap="chooseAnswer">否</button>
+      <button class="answer-option {{item.answer === 'unknown' ? 'answer-option--active' : ''}}" data-id="{{item.id}}" data-answer="unknown" bindtap="chooseAnswer">不知道</button>
+    </view>
+  </view>
+
+  <button class="text-button" disabled="{{saving}}" bindtap="skipQuestionnaire">跳过问卷，仅使用简历事实</button>
+</view>
+
+<view class="action-bar">
+  <button class="button button--primary" disabled="{{saving || answeredCount !== 12}}" bindtap="submitQuestionnaire">{{saving ? '正在保存…' : '开始岗位分析'}}</button>
+</view>

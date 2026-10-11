@@ -1,0 +1,4 @@
+{
+  "read": false,
+  "write": "resource.openid == auth.openid && /^resume-input\\//.test(resource.path) && /\\.docx$|\\.pdf$/.test(resource.path)"
+}

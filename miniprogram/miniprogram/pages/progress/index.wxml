@@ -1,0 +1,16 @@
+<view class="screen progress-screen">
+  <view class="progress-code">P4 · {{stage === 'generation' ? 'GENERATE' : 'MATCH'}}</view>
+  <view class="page-title">{{statusTitle}}</view>
+  <view class="page-copy">{{statusCopy}}</view>
+
+  <view wx:if="{{!errorMessage}}" class="progress-card">
+    <view class="progress-pulse"></view>
+    <view class="progress-card__title">正在安全处理</view>
+    <view class="progress-card__copy">请保持当前页面打开。不会记录完整提示词，也不会把联系方式发送给 DeepSeek。</view>
+  </view>
+
+  <view wx:else class="status-banner status-banner--error">
+    <view>{{errorMessage}}</view>
+    <button class="inline-action" bindtap="retry">重新尝试</button>
+  </view>
+</view>

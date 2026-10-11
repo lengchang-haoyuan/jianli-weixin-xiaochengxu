@@ -1,0 +1,35 @@
+<view class="screen history-screen">
+  <view class="page-title">历史与个人数据</view>
+  <view class="page-copy">这里将集中管理原始简历、岗位方向版本和导出文件。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error">
+    <text>{{errorMessage}}</text>
+    <button class="inline-retry" bindtap="loadSession">重新连接</button>
+  </view>
+
+  <view wx:elif="{{loading}}" class="status-banner">正在读取个人空间…</view>
+
+  <view wx:else class="account-strip">
+    <view>
+      <view class="account-strip__label">当前求职模式</view>
+      <view class="account-strip__value">{{modeLabel}}</view>
+    </view>
+    <view class="account-strip__quota">
+      <view class="account-strip__label">今日剩余</view>
+      <view class="account-strip__value">{{quotaRemaining}} / {{quotaLimit}}</view>
+    </view>
+  </view>
+
+  <view class="empty-state">
+    <view class="empty-state__title">还没有生成记录</view>
+    <view class="empty-state__copy">P5 完成后，这里会显示每个岗位方向的简历、语言、模板和生成时间。</view>
+  </view>
+
+  <view class="data-section">
+    <view class="section-title">数据控制</view>
+    <view class="data-section__copy">清空操作会删除当前阶段保存的求职模式、隐私同意和额度记录，并退出当前使用流程。</view>
+    <button class="button button--danger" disabled="{{deleting}}" bindtap="confirmDeleteAll">
+      {{deleting ? '正在清空…' : '清空全部个人数据'}}
+    </button>
+  </view>
+</view>

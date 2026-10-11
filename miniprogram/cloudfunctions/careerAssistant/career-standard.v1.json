@@ -1,0 +1,6801 @@
+{
+  "meta": {
+    "standardVersion": "career-standard-2026-09-14",
+    "preparedAt": "2026-09-14T11:41:48.728Z",
+    "referenceDate": "2026-09-14",
+    "status": "frozen",
+    "roleTaxonomyVersion": "2026-09-14",
+    "sourcePolicyVersion": "2026-09-14",
+    "generatedBy": "DeepSeek deepseek-v4-pro",
+    "disclaimer": "AI整理的参考评估标准，不代表实时招聘要求或录用结论。"
+  },
+  "categories": [
+    {
+      "roleId": "frontend-development",
+      "name": "前端开发",
+      "summary": "面向Web与小程序界面构建、交互实现和前端工程化的技术方向。",
+      "directions": [
+        {
+          "directionId": "web-frontend",
+          "name": "Web前端",
+          "aliases": [
+            "HTML/CSS/JavaScript",
+            "TypeScript前端"
+          ],
+          "description": "使用HTML、CSS、JavaScript及前端工程基础构建可访问、可维护的Web界面。",
+          "coreSkills": [
+            {
+              "name": "HTML、CSS与JavaScript",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "course",
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Web前端能力的基础是结构化内容、样式与行为实现，以及可访问性和版本控制。",
+              "sourceIds": [
+                "SRC-MDN-WEB"
+              ]
+            },
+            {
+              "name": "响应式布局与浏览器兼容",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "前端开发需要在多端和常见浏览器中验证布局、交互与可访问性。",
+              "sourceIds": [
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "TypeScript",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "work",
+                "course"
+              ],
+              "rationale": "TypeScript有助于提升前端代码质量，但不是所有Web前端岗位的必备项。",
+              "sourceIds": [
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080906",
+            "510201",
+            "510203",
+            "510213"
+          ],
+          "courseSignals": [
+            {
+              "name": "Web开发课程",
+              "description": "课程作业覆盖HTML、CSS、JavaScript或前端工具链。",
+              "sourceIds": [
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "可访问的Web页面项目",
+              "description": "项目能够展示语义化结构、响应式界面和浏览器端交互，并能说明可访问性处理。",
+              "sourceIds": [
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Web界面开发职责",
+              "description": "工作经历中承担页面实现、问题排查或与设计协作，并能描述业务场景和结果。",
+              "sourceIds": [
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "communication_collaboration",
+            "learning_problem_solving",
+            "quality_discipline"
+          ],
+          "adjacentDirectionIds": [
+            "vue-frontend",
+            "react-frontend",
+            "miniprogram-frontend",
+            "nodejs-fullstack"
+          ]
+        },
+        {
+          "directionId": "vue-frontend",
+          "name": "Vue.js前端",
+          "aliases": [
+            "Vue",
+            "Vue 3"
+          ],
+          "description": "基于Vue.js组件化、响应式状态和声明式渲染构建前端应用。",
+          "coreSkills": [
+            {
+              "name": "Vue组件与响应式状态",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Vue.js方向应评估组件化界面、声明式渲染、响应式状态以及Web基础技术结合。",
+              "sourceIds": [
+                "SRC-VUE-GUIDE",
+                "SRC-MDN-WEB"
+              ]
+            },
+            {
+              "name": "HTML、CSS与JavaScript基础",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "course",
+                "project",
+                "work"
+              ],
+              "rationale": "Vue指南明确其基于HTML、CSS和JavaScript构建用户界面。",
+              "sourceIds": [
+                "SRC-VUE-GUIDE",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "前端框架课程",
+              "description": "课程中完成过Vue组件、数据绑定或路由相关作业。",
+              "sourceIds": [
+                "SRC-VUE-GUIDE"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Vue应用项目",
+              "description": "项目展示组件拆分、状态管理和响应式界面，并能说明构建与调试过程。",
+              "sourceIds": [
+                "SRC-VUE-GUIDE",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Vue业务开发职责",
+              "description": "工作或实习中基于Vue实现业务页面、修复交互问题或维护组件库。",
+              "sourceIds": [
+                "SRC-VUE-GUIDE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "communication_collaboration",
+            "quality_discipline",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "web-frontend",
+            "react-frontend",
+            "java-vue-fullstack"
+          ]
+        },
+        {
+          "directionId": "react-frontend",
+          "name": "React前端",
+          "aliases": [
+            "React",
+            "Next.js"
+          ],
+          "description": "基于React组件、状态和数据渲染能力构建可维护前端界面。",
+          "coreSkills": [
+            {
+              "name": "React组件与状态管理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "React方向应评估组件拆分、状态管理、事件处理、数据渲染和可维护界面组织。",
+              "sourceIds": [
+                "SRC-REACT-QUICKSTART",
+                "SRC-MDN-WEB"
+              ]
+            },
+            {
+              "name": "条件与列表渲染",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "官方入门覆盖条件、列表渲染和事件处理，是React常见工程能力。",
+              "sourceIds": [
+                "SRC-REACT-QUICKSTART"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080906",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "React相关课程",
+              "description": "课程中完成过React组件、事件或状态管理任务。",
+              "sourceIds": [
+                "SRC-REACT-QUICKSTART"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "React界面项目",
+              "description": "项目能展示组件拆分、状态与props流动、事件处理和数据渲染。",
+              "sourceIds": [
+                "SRC-REACT-QUICKSTART",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "React业务开发职责",
+              "description": "工作或实习中使用React实现界面、维护状态或优化渲染。",
+              "sourceIds": [
+                "SRC-REACT-QUICKSTART"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "web-frontend",
+            "vue-frontend",
+            "nodejs-fullstack"
+          ]
+        },
+        {
+          "directionId": "miniprogram-frontend",
+          "name": "小程序前端",
+          "aliases": [
+            "微信小程序",
+            "Mini Program"
+          ],
+          "description": "使用WXML、WXSS、JavaScript逻辑层和微信小程序平台能力构建小程序应用。",
+          "coreSkills": [
+            {
+              "name": "WXML与WXSS",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "微信小程序方向应评估结构、样式、数据绑定和页面生命周期。",
+              "sourceIds": [
+                "SRC-WECHAT-MINIPROGRAM"
+              ]
+            },
+            {
+              "name": "小程序逻辑层与平台API",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "官方框架说明逻辑层、事件系统、路由、组件和原生API是小程序开发基础。",
+              "sourceIds": [
+                "SRC-WECHAT-MINIPROGRAM"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203",
+            "510213"
+          ],
+          "courseSignals": [
+            {
+              "name": "小程序开发课程",
+              "description": "课程中完成过小程序页面、数据绑定或平台API调用任务。",
+              "sourceIds": [
+                "SRC-WECHAT-MINIPROGRAM"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "微信小程序项目",
+              "description": "项目能展示WXML/WXSS页面、事件、生命周期和微信API使用。",
+              "sourceIds": [
+                "SRC-WECHAT-MINIPROGRAM"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "小程序开发职责",
+              "description": "工作或实习中承担小程序页面、逻辑或平台接口开发和问题排查。",
+              "sourceIds": [
+                "SRC-WECHAT-MINIPROGRAM"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "communication_collaboration",
+            "learning_problem_solving",
+            "quality_discipline"
+          ],
+          "adjacentDirectionIds": [
+            "web-frontend",
+            "vue-frontend",
+            "react-frontend"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "backend-development",
+      "name": "后端开发",
+      "summary": "面向服务端业务逻辑、API、数据持久化与运行时工程的技术方向。",
+      "directions": [
+        {
+          "directionId": "java-backend",
+          "name": "Java后端",
+          "aliases": [
+            "Java服务端",
+            "Spring Boot"
+          ],
+          "description": "使用Java与Spring Boot构建REST服务、数据持久化和服务端业务逻辑。",
+          "coreSkills": [
+            {
+              "name": "Spring Boot与REST服务",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Java后端方向可评估Spring Boot服务开发、REST接口、数据持久化和HTTP语义。",
+              "sourceIds": [
+                "SRC-SPRING-REST"
+              ]
+            },
+            {
+              "name": "数据持久化",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "Spring官方教程覆盖Spring Data JPA，数据持久化是Java服务端常见核心能力。",
+              "sourceIds": [
+                "SRC-SPRING-REST"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203",
+            "510214"
+          ],
+          "courseSignals": [
+            {
+              "name": "Java与Spring课程",
+              "description": "课程中完成过Java程序设计或Spring Boot接口开发任务。",
+              "sourceIds": [
+                "SRC-SPRING-REST"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "REST API项目",
+              "description": "项目能展示Spring Boot接口、数据模型、持久化和错误处理。",
+              "sourceIds": [
+                "SRC-SPRING-REST"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Java服务端开发职责",
+              "description": "工作或实习中承担Java接口开发、数据持久化或服务端问题排查。",
+              "sourceIds": [
+                "SRC-SPRING-REST"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "java-vue-fullstack",
+            "nodejs-backend",
+            "go-backend"
+          ]
+        },
+        {
+          "directionId": "go-backend",
+          "name": "Go后端",
+          "aliases": [
+            "Golang",
+            "Go服务端"
+          ],
+          "description": "使用Go和Gin等框架开发RESTful API与清晰的服务端处理逻辑。",
+          "coreSkills": [
+            {
+              "name": "Go路由与HTTP处理器",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Go后端方向可评估路由与处理器、JSON序列化、HTTP API和清晰错误处理。",
+              "sourceIds": [
+                "SRC-GO-GIN"
+              ]
+            },
+            {
+              "name": "JSON请求与响应处理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "官方教程演示了JSON请求响应和RESTful API，是Go服务端核心能力。",
+              "sourceIds": [
+                "SRC-GO-GIN"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "Go程序设计课程",
+              "description": "课程中完成过Go语言、HTTP服务或接口开发任务。",
+              "sourceIds": [
+                "SRC-GO-GIN"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Go REST API项目",
+              "description": "项目能展示路由、处理器、JSON序列化和错误处理。",
+              "sourceIds": [
+                "SRC-GO-GIN"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Go服务端开发职责",
+              "description": "工作或实习中使用Go开发接口、处理请求或排查服务端故障。",
+              "sourceIds": [
+                "SRC-GO-GIN"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "java-backend",
+            "python-backend",
+            "nodejs-backend"
+          ]
+        },
+        {
+          "directionId": "python-backend",
+          "name": "Python后端",
+          "aliases": [
+            "Django",
+            "FastAPI",
+            "Flask"
+          ],
+          "description": "使用Python及FastAPI、Django或Flask构建类型化API、数据校验和持久化服务。",
+          "coreSkills": [
+            {
+              "name": "类型化API与数据校验",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "FastAPI官方教程覆盖类型声明、请求响应、数据校验、依赖、认证、数据库和OpenAPI文档。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL"
+              ]
+            },
+            {
+              "name": "Python服务端数据持久化",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "Python后端可评估持久化与数据库集成能力，这是服务端系统常见核心。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "Python Web开发课程",
+              "description": "课程中完成过FastAPI、Django或Flask的API开发任务。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Python API项目",
+              "description": "项目能展示类型化API、数据校验、接口文档和持久化。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Python服务端开发职责",
+              "description": "工作或实习中使用Python开发API、处理业务逻辑或维护服务端系统。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "python-web-fullstack",
+            "java-backend",
+            "nodejs-backend"
+          ]
+        },
+        {
+          "directionId": "nodejs-backend",
+          "name": "Node.js后端",
+          "aliases": [
+            "Node",
+            "NestJS",
+            "Express"
+          ],
+          "description": "使用Node.js及异步I/O构建HTTP服务、模块化服务端应用和运行时诊断。",
+          "coreSkills": [
+            {
+              "name": "服务端JavaScript与异步I/O",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Node.js方向可评估服务端JavaScript、异步I/O、HTTP服务、模块与运行时诊断。",
+              "sourceIds": [
+                "SRC-NODE-LEARN"
+              ]
+            },
+            {
+              "name": "HTTP服务与模块组织",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "官方学习资料覆盖HTTP、模块化和运行时诊断，是Node.js服务端基础。",
+              "sourceIds": [
+                "SRC-NODE-LEARN"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "Node.js课程",
+              "description": "课程中完成过服务端JavaScript、HTTP或异步任务。",
+              "sourceIds": [
+                "SRC-NODE-LEARN"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Node.js后端项目",
+              "description": "项目能展示HTTP服务、异步I/O、模块组织和错误诊断。",
+              "sourceIds": [
+                "SRC-NODE-LEARN"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Node.js服务端开发职责",
+              "description": "工作或实习中使用Node.js维护API、处理异步任务或排查运行时问题。",
+              "sourceIds": [
+                "SRC-NODE-LEARN"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "nodejs-fullstack",
+            "java-backend",
+            "python-backend",
+            "go-backend"
+          ]
+        },
+        {
+          "directionId": "cpp-backend",
+          "name": "C/C++服务端",
+          "aliases": [
+            "C++服务端",
+            "Linux C++"
+          ],
+          "description": "使用C/C++构建高性能网络服务、异步I/O和跨平台服务端系统。",
+          "coreSkills": [
+            {
+              "name": "网络I/O与异步编程",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Boost.Asio官方文档覆盖跨平台网络和底层I/O编程模型，支持同步与异步操作。",
+              "sourceIds": [
+                "SRC-BOOST-ASIO"
+              ]
+            },
+            {
+              "name": "资源生命周期管理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "C/C++服务端方向应评估资源生命周期、并发处理和跨平台构建基础。",
+              "sourceIds": [
+                "SRC-BOOST-ASIO",
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "构建配置与跨平台交付",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "构建与跨平台是C/C++工程能力，但具体工具链因团队而异。",
+              "sourceIds": [
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080909T",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "C/C++程序设计课程",
+              "description": "课程中完成过网络编程、并发或系统级C++任务。",
+              "sourceIds": [
+                "SRC-BOOST-ASIO"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "C++服务端项目",
+              "description": "项目能展示网络I/O、异步处理、资源管理和构建配置。",
+              "sourceIds": [
+                "SRC-BOOST-ASIO",
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "C++服务端开发职责",
+              "description": "工作或实习中承担C/C++服务端开发、网络编程或性能排查。",
+              "sourceIds": [
+                "SRC-BOOST-ASIO",
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "cpp-qt-client",
+            "cross-platform-client",
+            "java-backend"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "fullstack-development",
+      "name": "全栈开发",
+      "summary": "同时承担前端界面与后端服务开发、集成和交付的技术方向。",
+      "directions": [
+        {
+          "directionId": "java-vue-fullstack",
+          "name": "Java + Vue.js全栈",
+          "aliases": [
+            "Spring Boot + Vue"
+          ],
+          "description": "使用Spring Boot后端与Vue.js前端协同构建完整Web应用。",
+          "coreSkills": [
+            {
+              "name": "Spring Boot服务端开发",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Java后端能力可评估Spring Boot服务开发、REST接口、数据持久化和HTTP语义。",
+              "sourceIds": [
+                "SRC-SPRING-REST"
+              ]
+            },
+            {
+              "name": "Vue组件与响应式界面",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "Vue.js方向应评估组件化界面、声明式渲染、响应式状态和Web基础。",
+              "sourceIds": [
+                "SRC-VUE-GUIDE",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "前后端接口联调",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "internship"
+              ],
+              "rationale": "联调与集成是全栈常备能力，可从项目结果和协作证据中观察。",
+              "sourceIds": [
+                "SRC-SPRING-REST",
+                "SRC-VUE-GUIDE"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "Web全栈课程",
+              "description": "课程中完成过Spring Boot接口和Vue页面集成任务。",
+              "sourceIds": [
+                "SRC-SPRING-REST",
+                "SRC-VUE-GUIDE"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Java + Vue全栈项目",
+              "description": "项目能展示前端Vue界面、后端Spring Boot API和数据持久化集成。",
+              "sourceIds": [
+                "SRC-SPRING-REST",
+                "SRC-VUE-GUIDE"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "全栈开发职责",
+              "description": "工作或实习中同时承担Java后端与Vue前端开发、联调或部署任务。",
+              "sourceIds": [
+                "SRC-SPRING-REST",
+                "SRC-VUE-GUIDE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "planning_execution",
+            "communication_collaboration",
+            "quality_discipline"
+          ],
+          "adjacentDirectionIds": [
+            "java-backend",
+            "vue-frontend",
+            "nodejs-fullstack"
+          ]
+        },
+        {
+          "directionId": "nodejs-fullstack",
+          "name": "Node.js全栈",
+          "aliases": [
+            "TypeScript全栈",
+            "JavaScript全栈"
+          ],
+          "description": "使用Node.js服务端与JavaScript/TypeScript前端能力构建全栈应用。",
+          "coreSkills": [
+            {
+              "name": "Node.js服务端能力",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Node.js方向可评估服务端JavaScript、异步I/O、HTTP服务、模块与运行时诊断。",
+              "sourceIds": [
+                "SRC-NODE-LEARN"
+              ]
+            },
+            {
+              "name": "JavaScript前端基础",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "全栈方向需要同时具备前端实现和后端集成能力，Web前端基础可评估HTML、CSS、JavaScript。",
+              "sourceIds": [
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "TypeScript",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "TypeScript提升全栈项目可维护性，但不是所有Node.js全栈岗位必备。",
+              "sourceIds": [
+                "SRC-NODE-LEARN",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "JavaScript全栈课程",
+              "description": "课程中完成过Node.js服务与前端页面集成任务。",
+              "sourceIds": [
+                "SRC-NODE-LEARN",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Node.js全栈项目",
+              "description": "项目能展示Node.js API、前端界面和前后端集成。",
+              "sourceIds": [
+                "SRC-NODE-LEARN",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Node.js全栈开发职责",
+              "description": "工作或实习中承担Node.js服务端与前端开发、集成或部署任务。",
+              "sourceIds": [
+                "SRC-NODE-LEARN",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "nodejs-backend",
+            "react-frontend",
+            "java-vue-fullstack"
+          ]
+        },
+        {
+          "directionId": "python-web-fullstack",
+          "name": "Python Web全栈",
+          "aliases": [
+            "Django全栈",
+            "FastAPI全栈"
+          ],
+          "description": "使用Python Web框架与前端页面构建完整Web应用。",
+          "coreSkills": [
+            {
+              "name": "Python API与数据校验",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Python后端与Web全栈方向可评估类型化API、数据校验、依赖管理、认证、持久化和接口文档。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL"
+              ]
+            },
+            {
+              "name": "前端页面与集成",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "全栈方向需要前端基础并能为Python后端提供可用的Web界面。",
+              "sourceIds": [
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "Django模板或前端框架",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "模板渲染或现代前端框架可根据项目技术栈调整，非所有岗位同一要求。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "Python Web全栈课程",
+              "description": "课程中完成过Django/FastAPI后端与前端页面集成任务。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Python Web全栈项目",
+              "description": "项目能展示Python API、数据持久化和前端页面集成。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Python全栈开发职责",
+              "description": "工作或实习中使用Python后端和前端技术完成业务功能或维护系统。",
+              "sourceIds": [
+                "SRC-FASTAPI-TUTORIAL",
+                "SRC-MDN-WEB"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "python-backend",
+            "web-frontend",
+            "java-vue-fullstack"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "mobile-development",
+      "name": "移动端开发",
+      "summary": "面向Android、iOS、HarmonyOS及跨平台移动应用开发的技术方向。",
+      "directions": [
+        {
+          "directionId": "android",
+          "name": "Android",
+          "aliases": [
+            "Kotlin",
+            "Java Android"
+          ],
+          "description": "使用Kotlin/Jetpack Compose构建Android应用，覆盖架构、数据、网络和测试。",
+          "coreSkills": [
+            {
+              "name": "Kotlin与Compose界面",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Android官方课程覆盖Kotlin、Jetpack Compose、应用架构、数据存储、网络和测试。",
+              "sourceIds": [
+                "SRC-ANDROID-COURSES"
+              ]
+            },
+            {
+              "name": "Android生命周期与架构",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "生命周期与架构是Android应用稳定性的核心，可从项目或工作证据中评估。",
+              "sourceIds": [
+                "SRC-ANDROID-COURSES"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "Android测试",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "测试能力是重要工程实践，但初级Android岗可降低为支持项。",
+              "sourceIds": [
+                "SRC-ANDROID-COURSES"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080905",
+            "510201",
+            "510203",
+            "510213"
+          ],
+          "courseSignals": [
+            {
+              "name": "Android开发课程",
+              "description": "课程中完成过Kotlin或Android应用界面、数据或网络任务。",
+              "sourceIds": [
+                "SRC-ANDROID-COURSES"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Android应用项目",
+              "description": "项目能展示Compose界面、生命周期、数据存储和网络交互。",
+              "sourceIds": [
+                "SRC-ANDROID-COURSES"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Android开发职责",
+              "description": "工作或实习中承担Android应用开发、适配或问题修复。",
+              "sourceIds": [
+                "SRC-ANDROID-COURSES"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "cross-platform-mobile",
+            "harmonyos",
+            "ios"
+          ]
+        },
+        {
+          "directionId": "ios",
+          "name": "iOS",
+          "aliases": [
+            "Swift",
+            "Objective-C"
+          ],
+          "description": "使用Swift/SwiftUI构建iOS应用，覆盖状态、导航、持久化、网络和测试。",
+          "coreSkills": [
+            {
+              "name": "Swift与SwiftUI",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Apple官方应用开发教程覆盖Swift、SwiftUI、状态、导航、持久化、网络、错误处理和测试。",
+              "sourceIds": [
+                "SRC-APPLE-APPDEV"
+              ]
+            },
+            {
+              "name": "iOS状态与导航",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "状态与导航是构建可维护iOS应用的重要核心能力。",
+              "sourceIds": [
+                "SRC-APPLE-APPDEV"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "iOS应用测试",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "官方课程覆盖测试，但不同团队对初级iOS岗测试深度要求不同。",
+              "sourceIds": [
+                "SRC-APPLE-APPDEV"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203",
+            "510213"
+          ],
+          "courseSignals": [
+            {
+              "name": "iOS开发课程",
+              "description": "课程中完成过Swift/SwiftUI界面、导航或数据任务。",
+              "sourceIds": [
+                "SRC-APPLE-APPDEV"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "iOS应用项目",
+              "description": "项目能展示SwiftUI界面、状态、导航、持久化或网络。",
+              "sourceIds": [
+                "SRC-APPLE-APPDEV"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "iOS开发职责",
+              "description": "工作或实习中用Swift开发iOS应用、修复问题或维护模块。",
+              "sourceIds": [
+                "SRC-APPLE-APPDEV"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "cross-platform-mobile",
+            "harmonyos",
+            "android"
+          ]
+        },
+        {
+          "directionId": "harmonyos",
+          "name": "HarmonyOS",
+          "aliases": [
+            "鸿蒙",
+            "ArkTS"
+          ],
+          "description": "使用ArkTS、ArkUI和DevEco Studio构建HarmonyOS应用。",
+          "coreSkills": [
+            {
+              "name": "ArkTS与ArkUI",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "HarmonyOS方向可评估ArkTS、ArkUI、应用状态与生命周期以及DevEco Studio工具链。",
+              "sourceIds": [
+                "SRC-HARMONYOS-GUIDE"
+              ]
+            },
+            {
+              "name": "HarmonyOS应用生命周期",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "官方指南涵盖应用开发流程和生命周期，是稳定交付的基础。",
+              "sourceIds": [
+                "SRC-HARMONYOS-GUIDE"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "DevEco Studio工具链",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "工具链使用是可观察工程证据，但需结合实际项目判断熟练度。",
+              "sourceIds": [
+                "SRC-HARMONYOS-GUIDE"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203",
+            "510213"
+          ],
+          "courseSignals": [
+            {
+              "name": "HarmonyOS开发课程",
+              "description": "课程中完成过ArkTS、ArkUI或DevEco Studio应用任务。",
+              "sourceIds": [
+                "SRC-HARMONYOS-GUIDE"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "HarmonyOS应用项目",
+              "description": "项目能展示ArkTS/ArkUI界面、状态管理和应用生命周期。",
+              "sourceIds": [
+                "SRC-HARMONYOS-GUIDE"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "HarmonyOS开发职责",
+              "description": "工作或实习中使用ArkTS/ArkUI开发或维护HarmonyOS应用。",
+              "sourceIds": [
+                "SRC-HARMONYOS-GUIDE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "android",
+            "ios",
+            "cross-platform-mobile"
+          ]
+        },
+        {
+          "directionId": "cross-platform-mobile",
+          "name": "跨平台移动应用",
+          "aliases": [
+            "Flutter",
+            "React Native",
+            "uni-app"
+          ],
+          "description": "使用Flutter、React Native或uni-app等跨平台方案构建多端移动应用。",
+          "coreSkills": [
+            {
+              "name": "共享代码与响应式界面",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "跨平台移动方向可评估共享代码、响应式界面、状态、平台通道、构建测试和多端适配。",
+              "sourceIds": [
+                "SRC-FLUTTER-PLATFORM"
+              ]
+            },
+            {
+              "name": "平台集成与多端适配",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "Flutter官方文档说明使用单一代码库构建、测试和部署多平台原生编译应用，并处理平台集成。",
+              "sourceIds": [
+                "SRC-FLUTTER-PLATFORM"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203",
+            "510213"
+          ],
+          "courseSignals": [
+            {
+              "name": "跨平台移动开发课程",
+              "description": "课程中完成过Flutter跨平台应用任务。",
+              "sourceIds": [
+                "SRC-FLUTTER-PLATFORM"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "跨平台移动应用项目",
+              "description": "项目能展示共享代码、平台通道、状态管理和多端适配。",
+              "sourceIds": [
+                "SRC-FLUTTER-PLATFORM"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "跨平台移动开发职责",
+              "description": "工作或实习中使用跨平台框架完成移动应用功能、集成或发布。",
+              "sourceIds": [
+                "SRC-FLUTTER-PLATFORM"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "planning_execution",
+            "quality_discipline"
+          ],
+          "adjacentDirectionIds": [
+            "android",
+            "ios",
+            "harmonyos"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "desktop-client-development",
+      "name": "客户端与桌面开发",
+      "summary": "面向PC客户端、桌面应用与跨平台原生客户端开发的技术方向。",
+      "directions": [
+        {
+          "directionId": "cpp-qt-client",
+          "name": "C++/Qt客户端",
+          "aliases": [
+            "Qt",
+            "C++ GUI"
+          ],
+          "description": "使用C++和Qt构建桌面客户端、界面组件与跨平台应用。",
+          "coreSkills": [
+            {
+              "name": "Qt界面组件与信号槽",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Qt方向可评估界面组件、信号槽、事件循环、资源管理和平台适配。",
+              "sourceIds": [
+                "SRC-QT-DOCS"
+              ]
+            },
+            {
+              "name": "C++资源管理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "C++/Qt客户端需要可靠管理资源和对象生命周期。",
+              "sourceIds": [
+                "SRC-QT-DOCS",
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "构建配置与跨平台交付",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "工程构建与交付能力重要，但具体工具链因团队而异。",
+              "sourceIds": [
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080909T",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "C++/Qt课程",
+              "description": "课程中完成过Qt界面、信号槽或事件处理任务。",
+              "sourceIds": [
+                "SRC-QT-DOCS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Qt桌面应用项目",
+              "description": "项目能展示界面组件、信号槽、事件循环和平台适配。",
+              "sourceIds": [
+                "SRC-QT-DOCS",
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Qt客户端开发职责",
+              "description": "工作或实习中使用C++/Qt开发桌面客户端、维护界面或排查问题。",
+              "sourceIds": [
+                "SRC-QT-DOCS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "cpp-backend",
+            "cross-platform-client",
+            "electron-desktop"
+          ]
+        },
+        {
+          "directionId": "dotnet-desktop",
+          "name": ".NET桌面应用",
+          "aliases": [
+            "C#",
+            "WPF",
+            "WinForms"
+          ],
+          "description": "使用C#与WPF/WinForms/WinUI/.NET MAUI构建Windows桌面应用。",
+          "coreSkills": [
+            {
+              "name": "C#与桌面UI框架",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": ".NET桌面方向可评估C#、桌面UI框架、数据绑定、事件处理、部署与Windows平台集成。",
+              "sourceIds": [
+                "SRC-DOTNET-DESKTOP"
+              ]
+            },
+            {
+              "name": "数据绑定与事件处理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "数据绑定和事件处理是Windows桌面应用交互的关键。",
+              "sourceIds": [
+                "SRC-DOTNET-DESKTOP"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "部署与平台集成",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "部署和Windows平台集成是工程能力，但可依项目规模评估。",
+              "sourceIds": [
+                "SRC-DOTNET-DESKTOP"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": ".NET桌面开发课程",
+              "description": "课程中完成过C#、WPF、WinForms或WinUI任务。",
+              "sourceIds": [
+                "SRC-DOTNET-DESKTOP"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": ".NET桌面应用项目",
+              "description": "项目能展示C#界面、数据绑定、事件处理和部署。",
+              "sourceIds": [
+                "SRC-DOTNET-DESKTOP"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": ".NET桌面开发职责",
+              "description": "工作或实习中使用C#/.NET开发或维护桌面应用。",
+              "sourceIds": [
+                "SRC-DOTNET-DESKTOP"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "cpp-qt-client",
+            "electron-desktop",
+            "cross-platform-client"
+          ]
+        },
+        {
+          "directionId": "electron-desktop",
+          "name": "Electron桌面应用",
+          "aliases": [
+            "Electron",
+            "Tauri"
+          ],
+          "description": "使用JavaScript、HTML、CSS结合Chromium与Node.js构建跨平台桌面应用。",
+          "coreSkills": [
+            {
+              "name": "主进程与渲染进程",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Electron方向可评估Web界面、主进程与渲染进程、进程通信、桌面API和跨平台打包。",
+              "sourceIds": [
+                "SRC-ELECTRON-DOCS"
+              ]
+            },
+            {
+              "name": "进程通信与桌面API",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "进程通信和桌面API是Electron应用区别于普通Web应用的核心。",
+              "sourceIds": [
+                "SRC-ELECTRON-DOCS"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "Electron开发课程",
+              "description": "课程中完成过Electron主进程、渲染进程或打包任务。",
+              "sourceIds": [
+                "SRC-ELECTRON-DOCS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Electron桌面应用项目",
+              "description": "项目能展示主进程、渲染进程、进程通信和跨平台打包。",
+              "sourceIds": [
+                "SRC-ELECTRON-DOCS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Electron开发职责",
+              "description": "工作或实习中使用Electron构建桌面应用、处理进程通信或打包发布。",
+              "sourceIds": [
+                "SRC-ELECTRON-DOCS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "react-frontend",
+            "nodejs-backend",
+            "cross-platform-client"
+          ]
+        },
+        {
+          "directionId": "cross-platform-client",
+          "name": "跨平台客户端",
+          "aliases": [
+            "跨平台桌面",
+            "Native Client"
+          ],
+          "description": "使用跨平台技术构建可在多操作系统运行的原生客户端应用。",
+          "coreSkills": [
+            {
+              "name": "跨平台界面与平台适配",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Qt和Electron官方资料均覆盖跨平台界面、资源管理和平台适配。",
+              "sourceIds": [
+                "SRC-QT-DOCS",
+                "SRC-ELECTRON-DOCS"
+              ]
+            },
+            {
+              "name": "原生模块与资源管理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "跨平台客户端需要管理不同平台资源和原生模块边界。",
+              "sourceIds": [
+                "SRC-QT-DOCS",
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "构建与打包",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "跨平台构建打包是常见工程任务，但工具链因项目而异。",
+              "sourceIds": [
+                "SRC-CMAKE-TUTORIAL"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080909T",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "跨平台客户端课程",
+              "description": "课程中完成过Qt、Electron或其他跨平台客户端任务。",
+              "sourceIds": [
+                "SRC-QT-DOCS",
+                "SRC-ELECTRON-DOCS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "跨平台客户端项目",
+              "description": "项目能展示多平台界面、资源管理、构建和平台适配。",
+              "sourceIds": [
+                "SRC-QT-DOCS",
+                "SRC-ELECTRON-DOCS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "跨平台客户端开发职责",
+              "description": "工作或实习中开发、适配或打包跨平台客户端应用。",
+              "sourceIds": [
+                "SRC-QT-DOCS",
+                "SRC-ELECTRON-DOCS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "cpp-qt-client",
+            "electron-desktop",
+            "dotnet-desktop"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "software-testing",
+      "name": "软件测试与测试开发",
+      "summary": "面向功能、接口、自动化、性能测试和测试平台开发的质量保障方向。",
+      "directions": [
+        {
+          "directionId": "functional-testing",
+          "name": "功能测试",
+          "aliases": [
+            "黑盒测试",
+            "业务测试"
+          ],
+          "description": "依据需求与业务场景设计、执行功能测试并记录缺陷。",
+          "coreSkills": [
+            {
+              "name": "需求分析与测试设计",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "ISTQB覆盖测试基础、生命周期、静态测试、分析设计、管理与工具。",
+              "sourceIds": [
+                "SRC-ISTQB-CTFL"
+              ]
+            },
+            {
+              "name": "缺陷记录与测试执行",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "功能测试方向应评估需求与风险分析、测试执行、缺陷记录和测试管理。",
+              "sourceIds": [
+                "SRC-ISTQB-CTFL"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "测试管理工具",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "工具支持可提高测试效率，但功能测试核心是测试设计能力。",
+              "sourceIds": [
+                "SRC-ISTQB-CTFL"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "软件测试课程",
+              "description": "课程中完成过测试用例设计、执行或缺陷报告任务。",
+              "sourceIds": [
+                "SRC-ISTQB-CTFL"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "功能测试项目",
+              "description": "项目能展示基于需求设计的测试用例、执行记录和缺陷分析。",
+              "sourceIds": [
+                "SRC-ISTQB-CTFL"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "功能测试职责",
+              "description": "工作或实习中承担功能测试设计、执行、回归或缺陷管理。",
+              "sourceIds": [
+                "SRC-ISTQB-CTFL"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "feedback_accountability",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "api-testing",
+            "test-automation",
+            "performance-testing"
+          ]
+        },
+        {
+          "directionId": "api-testing",
+          "name": "接口测试",
+          "aliases": [
+            "API测试"
+          ],
+          "description": "构造HTTP请求、断言响应状态与数据，并对接口进行集成与回归测试。",
+          "coreSkills": [
+            {
+              "name": "HTTP请求构造与断言",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "接口测试方向可评估HTTP请求构造、状态与数据断言、鉴权、测试数据准备和结果诊断。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-API",
+                "SRC-ISTQB-CTFL"
+              ]
+            },
+            {
+              "name": "测试数据准备与结果诊断",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "接口测试需要准备测试数据并诊断失败响应。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "接口自动化脚本",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "自动化可提升效率，但接口测试基础仍为请求与断言设计。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "接口测试课程",
+              "description": "课程中完成过API请求、断言或鉴权测试任务。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "API测试项目",
+              "description": "项目能展示接口请求构造、响应断言、鉴权和结果诊断。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "接口测试职责",
+              "description": "工作或实习中承担API测试、接口回归或测试数据准备。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "feedback_accountability",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "functional-testing",
+            "test-automation",
+            "sdet"
+          ]
+        },
+        {
+          "directionId": "test-automation",
+          "name": "自动化测试",
+          "aliases": [
+            "UI自动化",
+            "自动化测试工程师"
+          ],
+          "description": "使用自动化测试框架编写可重复、稳定可维护的UI或端到端测试。",
+          "coreSkills": [
+            {
+              "name": "可重复测试与断言",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Playwright官方文档覆盖测试动作、断言、隔离、钩子和端到端自动化。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS",
+                "SRC-ISTQB-CTFL"
+              ]
+            },
+            {
+              "name": "测试隔离与可维护性",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "自动化测试方向应评估可重复测试、断言、隔离、夹具、调试和测试代码维护。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "测试平台或CI集成",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "CI集成是自动化落地的常见要求，但可按岗位技术栈评估。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "自动化测试课程",
+              "description": "课程中完成过Playwright/Selenium等自动化脚本任务。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "自动化测试项目",
+              "description": "项目能展示测试动作、断言、隔离、调试和测试代码维护。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "自动化测试开发职责",
+              "description": "工作或实习中编写、维护或优化UI/端到端自动化测试。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "functional-testing",
+            "api-testing",
+            "sdet"
+          ]
+        },
+        {
+          "directionId": "performance-testing",
+          "name": "性能测试",
+          "aliases": [
+            "压力测试",
+            "负载测试"
+          ],
+          "description": "设计负载模型，采集并分析性能指标，形成性能测试报告和调优建议。",
+          "coreSkills": [
+            {
+              "name": "负载模型与并发请求",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "JMeter官方手册覆盖测试计划、负载测试、结果分析和报告。",
+              "sourceIds": [
+                "SRC-JMETER-MANUAL"
+              ]
+            },
+            {
+              "name": "性能指标采集与分析",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "性能测试方向可评估负载模型、并发请求、指标采集、结果分析和报告。",
+              "sourceIds": [
+                "SRC-JMETER-MANUAL"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "分布式执行与报告",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "分布式执行是重要进阶能力，但不作为所有性能测试岗必备。",
+              "sourceIds": [
+                "SRC-JMETER-MANUAL"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "性能测试课程",
+              "description": "课程中完成过JMeter负载测试或性能指标分析任务。",
+              "sourceIds": [
+                "SRC-JMETER-MANUAL"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "性能测试项目",
+              "description": "项目能展示负载模型、并发请求、指标采集和分析报告。",
+              "sourceIds": [
+                "SRC-JMETER-MANUAL"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "性能测试职责",
+              "description": "工作或实习中承担负载测试、性能分析或报告输出。",
+              "sourceIds": [
+                "SRC-JMETER-MANUAL"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "planning_execution",
+            "quality_discipline",
+            "feedback_accountability"
+          ],
+          "adjacentDirectionIds": [
+            "functional-testing",
+            "test-automation",
+            "sdet"
+          ]
+        },
+        {
+          "directionId": "sdet",
+          "name": "测试开发",
+          "aliases": [
+            "SDET",
+            "测试平台开发"
+          ],
+          "description": "开发测试工具、平台或自动化脚本，支持测试效率和工程化质量保障。",
+          "coreSkills": [
+            {
+              "name": "测试代码与自动化框架",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "测试开发方向可评估可重复测试、断言、隔离、夹具、调试和测试代码维护。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS",
+                "SRC-PLAYWRIGHT-API"
+              ]
+            },
+            {
+              "name": "接口测试与工具开发",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "接口测试可评估HTTP请求构造、状态与数据断言、鉴权、测试数据准备和结果诊断。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "测试平台或CI/CD集成",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "测试平台与CI/CD是测试开发常备能力，但具体工具因团队而异。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS",
+                "SRC-ISTQB-CTFL"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "测试开发课程",
+              "description": "课程中完成过测试框架、API测试或测试工具开发任务。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS",
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "测试平台或自动化项目",
+              "description": "项目能展示测试代码维护、接口测试、工具开发和自动化集成。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS",
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "测试开发职责",
+              "description": "工作或实习中开发测试工具、维护自动化框架或建设测试平台。",
+              "sourceIds": [
+                "SRC-PLAYWRIGHT-TESTS",
+                "SRC-PLAYWRIGHT-API"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "test-automation",
+            "api-testing",
+            "cicd-devops"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "cloud-operations-devops",
+      "name": "云计算、运维与DevOps",
+      "summary": "面向云平台、容器、CI/CD、Linux运维和SRE的工程化交付与稳定性方向。",
+      "directions": [
+        {
+          "directionId": "linux-operations",
+          "name": "Linux运维",
+          "aliases": [
+            "系统运维"
+          ],
+          "description": "负责Linux系统、镜像容器、服务运行与故障诊断的运维工作。",
+          "coreSkills": [
+            {
+              "name": "镜像与容器生命周期",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Docker官方概览覆盖客户端与守护进程、镜像、容器、仓库、网络和卷。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW"
+              ]
+            },
+            {
+              "name": "系统运行诊断",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "Linux运维与容器平台方向可评估镜像、容器生命周期、网络、卷、仓库和运行诊断。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW",
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "可靠性目标与监控",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "SRE能力可辅助提升运维质量，但初级Linux运维可不作为必备项。",
+              "sourceIds": [
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080903",
+            "510201",
+            "510202",
+            "510206"
+          ],
+          "courseSignals": [
+            {
+              "name": "Linux与容器课程",
+              "description": "课程中完成过Linux服务配置、容器生命周期或运行诊断任务。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Linux运维项目",
+              "description": "项目能展示镜像构建、容器生命周期、网络配置和运行诊断。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Linux运维职责",
+              "description": "工作或实习中承担Linux系统维护、容器运行或故障诊断。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW",
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "responsibility_initiative",
+            "learning_problem_solving",
+            "feedback_accountability"
+          ],
+          "adjacentDirectionIds": [
+            "container-platform",
+            "sre",
+            "cloud-platform"
+          ]
+        },
+        {
+          "directionId": "cloud-platform",
+          "name": "云平台",
+          "aliases": [
+            "公有云",
+            "私有云"
+          ],
+          "description": "面向云平台工作负载编排、服务配置、存储、安全和故障排查。",
+          "coreSkills": [
+            {
+              "name": "工作负载编排与服务发现",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Kubernetes官方教程覆盖工作负载编排、服务、配置、存储和安全。",
+              "sourceIds": [
+                "SRC-KUBERNETES-TUTORIALS"
+              ]
+            },
+            {
+              "name": "云平台配置与安全",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "云平台方向可评估集群基础、应用配置、服务和安全管理。",
+              "sourceIds": [
+                "SRC-KUBERNETES-TUTORIALS",
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "SLO与监控",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "SRE与运维方向可评估可靠性目标、监控告警、自动化和故障响应。",
+              "sourceIds": [
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080903",
+            "510201",
+            "510202",
+            "510206"
+          ],
+          "courseSignals": [
+            {
+              "name": "云平台课程",
+              "description": "课程中完成过Kubernetes或云服务配置任务。",
+              "sourceIds": [
+                "SRC-KUBERNETES-TUTORIALS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "云平台项目",
+              "description": "项目能展示工作负载编排、服务发现、配置、存储和安全。",
+              "sourceIds": [
+                "SRC-KUBERNETES-TUTORIALS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "云平台运维职责",
+              "description": "工作或实习中管理云资源、配置服务或排查云平台问题。",
+              "sourceIds": [
+                "SRC-KUBERNETES-TUTORIALS",
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "planning_execution",
+            "responsibility_initiative",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "container-platform",
+            "linux-operations",
+            "sre"
+          ]
+        },
+        {
+          "directionId": "container-platform",
+          "name": "容器平台",
+          "aliases": [
+            "Docker",
+            "Kubernetes",
+            "K8s"
+          ],
+          "description": "基于Docker和Kubernetes构建、编排和运维容器化应用。",
+          "coreSkills": [
+            {
+              "name": "容器镜像与生命周期",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Docker概览覆盖镜像、容器生命周期、网络、卷和仓库。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW"
+              ]
+            },
+            {
+              "name": "Kubernetes编排",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "容器平台方向可评估工作负载编排、服务发现、配置、存储、安全和故障排查。",
+              "sourceIds": [
+                "SRC-KUBERNETES-TUTORIALS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "容器网络与存储",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "网络与存储是容器平台进阶能力，可作为支持项评估。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW",
+                "SRC-KUBERNETES-TUTORIALS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080903",
+            "510201",
+            "510202",
+            "510206"
+          ],
+          "courseSignals": [
+            {
+              "name": "容器平台课程",
+              "description": "课程中完成过Docker或Kubernetes部署、编排任务。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW",
+                "SRC-KUBERNETES-TUTORIALS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "容器平台项目",
+              "description": "项目能展示镜像构建、Kubernetes编排、服务暴露和故障排查。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW",
+                "SRC-KUBERNETES-TUTORIALS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "容器平台运维职责",
+              "description": "工作或实习中负责容器化部署、编排或平台问题排查。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW",
+                "SRC-KUBERNETES-TUTORIALS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "cloud-platform",
+            "linux-operations",
+            "cicd-devops"
+          ]
+        },
+        {
+          "directionId": "cicd-devops",
+          "name": "CI/CD与DevOps",
+          "aliases": [
+            "持续集成",
+            "持续交付"
+          ],
+          "description": "通过工作流自动化构建、测试和部署，实现持续集成与交付。",
+          "coreSkills": [
+            {
+              "name": "工作流与事件触发",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "GitHub Actions官方说明使用工作流自动执行构建、测试和部署。",
+              "sourceIds": [
+                "SRC-GITHUB-ACTIONS"
+              ]
+            },
+            {
+              "name": "构建测试部署自动化",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "CI/CD方向可评估工作流、事件触发、作业与步骤、密钥、构建测试和部署自动化。",
+              "sourceIds": [
+                "SRC-GITHUB-ACTIONS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "容器化交付",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "容器化是CI/CD常见交付方式，但不作为所有DevOps岗位核心。",
+              "sourceIds": [
+                "SRC-DOCKER-OVERVIEW"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "510201",
+            "510202",
+            "510203"
+          ],
+          "courseSignals": [
+            {
+              "name": "DevOps与CI/CD课程",
+              "description": "课程中完成过流水线、自动化构建或部署任务。",
+              "sourceIds": [
+                "SRC-GITHUB-ACTIONS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "CI/CD流水线项目",
+              "description": "项目能展示工作流、构建、测试和部署自动化。",
+              "sourceIds": [
+                "SRC-GITHUB-ACTIONS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "CI/CD工程职责",
+              "description": "工作或实习中搭建、维护流水线或推动自动化部署。",
+              "sourceIds": [
+                "SRC-GITHUB-ACTIONS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "container-platform",
+            "sre",
+            "sdet"
+          ]
+        },
+        {
+          "directionId": "sre",
+          "name": "SRE",
+          "aliases": [
+            "站点可靠性工程"
+          ],
+          "description": "围绕可靠性目标、监控告警、自动化、故障响应和复盘改进保障服务稳定。",
+          "coreSkills": [
+            {
+              "name": "可靠性目标与监控告警",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Google SRE资料覆盖风险、SLO、监控、告警和自动化。",
+              "sourceIds": [
+                "SRC-GOOGLE-SRE"
+              ]
+            },
+            {
+              "name": "故障响应与复盘改进",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "SRE方向可评估可靠性目标、监控告警、自动化、故障响应、容量和复盘改进。",
+              "sourceIds": [
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "自动化与发布工程",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "自动化和发布工程是SRE常用能力，但与具体团队平台相关。",
+              "sourceIds": [
+                "SRC-GOOGLE-SRE",
+                "SRC-GITHUB-ACTIONS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080903",
+            "510201",
+            "510202",
+            "510206"
+          ],
+          "courseSignals": [
+            {
+              "name": "SRE或运维课程",
+              "description": "课程中完成过监控、SLO或故障响应相关任务。",
+              "sourceIds": [
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "可靠性工程项目",
+              "description": "项目能展示监控告警、SLO、故障响应和复盘改进。",
+              "sourceIds": [
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "SRE职责",
+              "description": "工作或实习中负责服务可靠性、监控告警、故障处理或容量管理。",
+              "sourceIds": [
+                "SRC-GOOGLE-SRE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "responsibility_initiative",
+            "learning_problem_solving",
+            "feedback_accountability"
+          ],
+          "adjacentDirectionIds": [
+            "linux-operations",
+            "cloud-platform",
+            "cicd-devops"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "network-engineering",
+      "name": "网络工程与系统集成",
+      "summary": "面向网络基础、路由交换、系统集成和网络自动化的工程方向。",
+      "directions": [
+        {
+          "directionId": "routing-switching",
+          "name": "路由交换",
+          "aliases": [
+            "路由器交换机",
+            "企业网络"
+          ],
+          "description": "负责企业网络中的交换、路由、IP连通性和安全基础设施。",
+          "coreSkills": [
+            {
+              "name": "网络基础与IP连通性",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work",
+                "certificate"
+              ],
+              "rationale": "CCNA能力覆盖网络基础、网络接入、IP连通性、IP服务和安全基础。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            },
+            {
+              "name": "交换与路由配置排障",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "certificate",
+                "work",
+                "project"
+              ],
+              "rationale": "路由交换方向应评估配置排障、IP服务和企业网络能力。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "网络安全基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "certificate",
+                "project"
+              ],
+              "rationale": "安全基础是网络工程重要部分，但不同岗位深度差异大。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080903",
+            "080904K",
+            "510201",
+            "510202"
+          ],
+          "courseSignals": [
+            {
+              "name": "路由交换课程",
+              "description": "课程中完成过交换、路由、IP服务或安全基础任务。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "企业网络项目",
+              "description": "项目能展示路由交换配置、IP连通性和网络排障。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "路由交换工程职责",
+              "description": "工作或实习中配置、维护或排障企业网络设备。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "feedback_accountability"
+          ],
+          "adjacentDirectionIds": [
+            "network-operations",
+            "systems-integration",
+            "network-automation"
+          ]
+        },
+        {
+          "directionId": "network-operations",
+          "name": "网络运维",
+          "aliases": [
+            "网络管理员",
+            "NOC"
+          ],
+          "description": "负责网络运行监控、配置维护和故障处理。",
+          "coreSkills": [
+            {
+              "name": "网络基础与运行监控",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work",
+                "certificate"
+              ],
+              "rationale": "CCNA覆盖网络基础、接入、IP连通性和服务，是网络运维基础。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            },
+            {
+              "name": "网络配置与排障",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "certificate",
+                "work",
+                "project"
+              ],
+              "rationale": "网络运维方向需评估配置排障、故障响应和运行保障。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "监控与自动化",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "自动化可辅助网络运维，但不是所有岗位必备。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080903",
+            "510201",
+            "510202"
+          ],
+          "courseSignals": [
+            {
+              "name": "网络运维课程",
+              "description": "课程中完成过网络配置、监控或故障处理任务。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "网络运维项目",
+              "description": "项目能展示网络监控、配置维护和故障排查。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "网络运维职责",
+              "description": "工作或实习中负责网络设备监控、配置维护或故障处理。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "responsibility_initiative",
+            "feedback_accountability",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "routing-switching",
+            "systems-integration",
+            "network-automation"
+          ]
+        },
+        {
+          "directionId": "systems-integration",
+          "name": "系统集成",
+          "aliases": [
+            "集成实施",
+            "弱电集成"
+          ],
+          "description": "面向网络、服务器和弱电系统的集成实施与协同交付。",
+          "coreSkills": [
+            {
+              "name": "网络与系统集成基础",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work",
+                "certificate"
+              ],
+              "rationale": "CCNA能力覆盖网络基础、接入、IP服务、安全和自动化。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            },
+            {
+              "name": "跨系统实施与排障",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "系统集成方向应评估配置排障、系统集成和协同交付能力。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "网络自动化",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "自动化可提高集成效率，但弱电集成岗位可能不要求。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080903",
+            "510201",
+            "510202"
+          ],
+          "courseSignals": [
+            {
+              "name": "系统集成课程",
+              "description": "课程中完成过网络、服务器或弱电集成实施任务。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "系统集成项目",
+              "description": "项目能展示跨系统实施、网络配置、排障和交付。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "系统集成实施职责",
+              "description": "工作或实习中参与网络、服务器或弱电系统集成实施。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "planning_execution",
+            "communication_collaboration",
+            "feedback_accountability"
+          ],
+          "adjacentDirectionIds": [
+            "routing-switching",
+            "network-operations",
+            "network-automation"
+          ]
+        },
+        {
+          "directionId": "network-automation",
+          "name": "网络自动化",
+          "aliases": [
+            "NetDevOps",
+            "SDN"
+          ],
+          "description": "使用自动化和可编程性手段提升网络配置、交付与运维效率。",
+          "coreSkills": [
+            {
+              "name": "网络自动化与可编程性",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work",
+                "certificate"
+              ],
+              "rationale": "CCNA能力范围包含自动化和可编程性，是NetDevOps基础。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            },
+            {
+              "name": "网络配置与排障",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "certificate",
+                "work",
+                "project"
+              ],
+              "rationale": "网络自动化应建立在扎实的网络基础和排障能力上。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "SDN与脚本化交付",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "SDN和脚本化是网络自动化的重要路径，但具体技术栈不同。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080903",
+            "510201",
+            "510202"
+          ],
+          "courseSignals": [
+            {
+              "name": "网络自动化课程",
+              "description": "课程中完成过网络配置脚本或SDN任务。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "网络自动化项目",
+              "description": "项目能展示网络配置自动化、可编程接口和排障。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "网络自动化职责",
+              "description": "工作或实习中使用自动化工具或脚本维护网络配置和交付。",
+              "sourceIds": [
+                "SRC-CISCO-CCNA"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "routing-switching",
+            "network-operations",
+            "cicd-devops"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "cybersecurity",
+      "name": "网络与信息安全",
+      "summary": "面向安全运营、安全测试、攻防基础、密码应用和安全合规的技术方向。",
+      "directions": [
+        {
+          "directionId": "security-operations",
+          "name": "安全运营",
+          "aliases": [
+            "SOC",
+            "安全监控"
+          ],
+          "description": "围绕安全监控、检测、响应和风险管理开展安全运营工作。",
+          "coreSkills": [
+            {
+              "name": "安全监控与检测响应",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "NIST CSF 2.0以治理、识别、保护、检测、响应和恢复组织安全运营结果。",
+              "sourceIds": [
+                "SRC-NIST-CSF2",
+                "SRC-NIST-NICE"
+              ]
+            },
+            {
+              "name": "资产与风险识别",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "安全运营需围绕资产与风险识别、防护、检测、响应和恢复评估实践证据。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "安全合规基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "certificate",
+                "project"
+              ],
+              "rationale": "合规基础有助于安全运营，但可依岗位降低为支持项。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080904K",
+            "080911TK",
+            "510201",
+            "510202",
+            "510207"
+          ],
+          "courseSignals": [
+            {
+              "name": "安全运营课程",
+              "description": "课程中完成过安全监控、检测或响应任务。",
+              "sourceIds": [
+                "SRC-NIST-CSF2",
+                "SRC-NIST-NICE"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "安全运营项目",
+              "description": "项目能展示监控告警、资产识别、检测响应和复盘改进。",
+              "sourceIds": [
+                "SRC-NIST-CSF2",
+                "SRC-NIST-NICE"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "安全运营职责",
+              "description": "工作或实习中负责安全监控、告警处置、事件响应或风险管理。",
+              "sourceIds": [
+                "SRC-NIST-CSF2",
+                "SRC-NIST-NICE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "responsibility_initiative",
+            "feedback_accountability",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "security-testing",
+            "offensive-defense-foundations",
+            "security-compliance"
+          ]
+        },
+        {
+          "directionId": "security-testing",
+          "name": "安全测试",
+          "aliases": [
+            "渗透测试",
+            "漏洞评估"
+          ],
+          "description": "在授权范围内进行信息收集、漏洞验证、证据记录和修复建议。",
+          "coreSkills": [
+            {
+              "name": "Web安全测试方法",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "OWASP WSTG提供Web应用安全测试方法、测试领域、结果记录和报告参考。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG",
+                "SRC-NIST-NICE"
+              ]
+            },
+            {
+              "name": "漏洞验证与证据记录",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "安全测试方向可评估授权范围内的信息收集、配置与身份测试、漏洞验证、证据记录和修复建议。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "应急响应基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "certificate",
+                "project"
+              ],
+              "rationale": "应急响应是攻防安全重要能力，但不作为所有安全测试岗位核心。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080904K",
+            "080911TK",
+            "510201",
+            "510207"
+          ],
+          "courseSignals": [
+            {
+              "name": "安全测试课程",
+              "description": "课程中完成过Web漏洞测试、渗透测试或漏洞记录任务。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "安全测试项目",
+              "description": "项目能展示授权范围内信息收集、漏洞验证、证据记录和修复建议。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "安全测试职责",
+              "description": "工作或实习中开展授权安全测试、漏洞评估或报告输出。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "feedback_accountability",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "offensive-defense-foundations",
+            "security-operations",
+            "cryptography-application"
+          ]
+        },
+        {
+          "directionId": "offensive-defense-foundations",
+          "name": "攻防基础",
+          "aliases": [
+            "红蓝对抗",
+            "应急响应"
+          ],
+          "description": "覆盖攻击链验证、防御检测与应急响应的攻防基础能力。",
+          "coreSkills": [
+            {
+              "name": "进攻性安全验证",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "OWASP WSTG覆盖授权范围内的信息收集、配置与身份测试、漏洞验证。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG",
+                "SRC-NIST-NICE"
+              ]
+            },
+            {
+              "name": "检测响应与恢复",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "NIST CSF 2.0覆盖防护、检测、响应和恢复，适合攻防基础评估。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "安全合规意识",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "certificate",
+                "project"
+              ],
+              "rationale": "合规意识可约束攻防活动，但非攻防技术核心。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080904K",
+            "080911TK",
+            "510201",
+            "510207"
+          ],
+          "courseSignals": [
+            {
+              "name": "攻防基础课程",
+              "description": "课程中完成过漏洞验证、应急响应或红蓝对抗基础任务。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG",
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "攻防基础项目",
+              "description": "项目能展示授权攻击链验证、检测、响应和复盘。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG",
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "攻防与应急职责",
+              "description": "工作或实习中参与攻防验证、应急响应或事件复盘。",
+              "sourceIds": [
+                "SRC-OWASP-WSTG",
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "responsibility_initiative",
+            "learning_problem_solving",
+            "feedback_accountability"
+          ],
+          "adjacentDirectionIds": [
+            "security-testing",
+            "security-operations",
+            "cryptography-application"
+          ]
+        },
+        {
+          "directionId": "cryptography-application",
+          "name": "密码应用",
+          "aliases": [
+            "商用密码",
+            "密码工程"
+          ],
+          "description": "围绕密码算法、密钥生命周期、合规使用和安全实现开展应用与评估。",
+          "coreSkills": [
+            {
+              "name": "密码算法与协议基础",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "course",
+                "project",
+                "work",
+                "certificate"
+              ],
+              "rationale": "NIST密码标准与指南覆盖密码机制、算法、密钥管理及其安全应用。",
+              "sourceIds": [
+                "SRC-NIST-CRYPTO"
+              ]
+            },
+            {
+              "name": "密钥生命周期与安全实现",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "密码应用方向应评估算法与协议基础、密钥生命周期、合规使用和安全实现意识。",
+              "sourceIds": [
+                "SRC-NIST-CRYPTO"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "合规与风险管理",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "certificate",
+                "project"
+              ],
+              "rationale": "合规使用是密码应用的重要约束，可结合具体行业要求评估。",
+              "sourceIds": [
+                "SRC-NIST-CRYPTO"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080904K",
+            "080911TK",
+            "080918TK",
+            "510201",
+            "510207",
+            "510216"
+          ],
+          "courseSignals": [
+            {
+              "name": "密码学课程",
+              "description": "课程中完成过密码机制、算法或密钥管理任务。",
+              "sourceIds": [
+                "SRC-NIST-CRYPTO"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "密码应用项目",
+              "description": "项目能展示算法选择、密钥生命周期、合规和安全实现。",
+              "sourceIds": [
+                "SRC-NIST-CRYPTO"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "密码应用职责",
+              "description": "工作或实习中负责密码应用集成、密钥管理或安全评估。",
+              "sourceIds": [
+                "SRC-NIST-CRYPTO"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "feedback_accountability",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "security-compliance",
+            "security-testing",
+            "offensive-defense-foundations"
+          ]
+        },
+        {
+          "directionId": "security-compliance",
+          "name": "安全合规",
+          "aliases": [
+            "等保",
+            "风险合规"
+          ],
+          "description": "围绕治理、风险识别、防护、检测、响应和恢复开展安全合规评估。",
+          "coreSkills": [
+            {
+              "name": "安全治理与风险识别",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work",
+                "certificate"
+              ],
+              "rationale": "NIST CSF 2.0以治理、识别、保护、检测、响应和恢复组织安全风险管理结果。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            },
+            {
+              "name": "合规流程与恢复改进",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "安全合规方向可围绕治理、资产与风险识别、防护、检测、响应和恢复评估实践证据。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "密码与安全运营基础知识",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "certificate",
+                "project"
+              ],
+              "rationale": "密码和运营知识有助于合规判断，但合规核心是风险流程。",
+              "sourceIds": [
+                "SRC-NIST-CRYPTO",
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080904K",
+            "080911TK",
+            "080914TK",
+            "510201",
+            "510207"
+          ],
+          "courseSignals": [
+            {
+              "name": "安全合规课程",
+              "description": "课程中完成过等保、风险合规或安全治理任务。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "安全合规项目",
+              "description": "项目能展示治理、风险识别、防护、检测和恢复改进。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "安全合规职责",
+              "description": "工作或实习中参与等保、风险合规或安全治理工作。",
+              "sourceIds": [
+                "SRC-NIST-CSF2"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "feedback_accountability",
+            "planning_execution",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "security-operations",
+            "cryptography-application",
+            "offensive-defense-foundations"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "data-analysis-bi",
+      "name": "数据分析与BI",
+      "summary": "面向SQL/Python数据分析、商业智能可视化和产品运营分析的方向。",
+      "directions": [
+        {
+          "directionId": "sql-analysis",
+          "name": "SQL数据分析",
+          "aliases": [
+            "数据查询分析"
+          ],
+          "description": "使用SQL进行数据准备、查询、指标计算和洞察表达。",
+          "coreSkills": [
+            {
+              "name": "数据准备与查询分析",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "PL-300能力覆盖数据准备、建模、可视化和分析，适合SQL分析与BI方向。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            },
+            {
+              "name": "指标与可视化表达",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "数据分析方向应评估数据准备、建模、指标、可视化、洞察表达和数据安全。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "Python数据分析",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "Python可作为SQL分析的补充，但不同岗位可能只要求SQL。",
+              "sourceIds": [
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "SQL数据分析课程",
+              "description": "课程中完成过SQL查询、数据准备或指标计算任务。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "SQL分析项目",
+              "description": "项目能展示SQL数据处理、指标计算和洞察表达。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "SQL数据分析职责",
+              "description": "工作或实习中使用SQL完成数据提取、指标计算或业务分析。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "communication_collaboration",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "python-analysis",
+            "business-intelligence",
+            "product-operations-analysis"
+          ]
+        },
+        {
+          "directionId": "python-analysis",
+          "name": "Python数据分析",
+          "aliases": [
+            "Pandas",
+            "NumPy"
+          ],
+          "description": "使用Python、pandas等工具进行数据读取清洗、统计汇总和可视化。",
+          "coreSkills": [
+            {
+              "name": "数据读取清洗与转换",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "pandas官方教程覆盖表格数据读写、筛选、派生列、统计、重塑、合并和时间序列。",
+              "sourceIds": [
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            },
+            {
+              "name": "统计汇总与可视化",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "Python数据分析方向可评估数据读取清洗、筛选转换、统计汇总、表连接、时间序列和可视化。",
+              "sourceIds": [
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "SQL取数与集成",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "SQL常与Python分析结合，但是否为必备取决于岗位数据环境。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "Python数据分析课程",
+              "description": "课程中完成过pandas数据处理、统计或可视化任务。",
+              "sourceIds": [
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Python数据分析项目",
+              "description": "项目能展示数据清洗、转换、统计汇总和可视化。",
+              "sourceIds": [
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Python数据分析职责",
+              "description": "工作或实习中使用Python/pandas进行数据处理、分析和可视化。",
+              "sourceIds": [
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "sql-analysis",
+            "business-intelligence",
+            "product-operations-analysis"
+          ]
+        },
+        {
+          "directionId": "business-intelligence",
+          "name": "商业智能与可视化",
+          "aliases": [
+            "Tableau",
+            "Power BI",
+            "BI报表"
+          ],
+          "description": "使用BI工具进行数据建模、可视化和报表资产管理。",
+          "coreSkills": [
+            {
+              "name": "数据建模与可视化",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "PL-300覆盖数据准备、建模、可视化、分析、Power Query、DAX和资产管理。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            },
+            {
+              "name": "BI报表资产管理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "商业智能方向应评估数据准备、建模、指标、可视化、洞察表达和数据安全。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "DAX或Power Query",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "DAX/Power Query是Power BI重要能力，但其他BI工具可能不同。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "BI与可视化课程",
+              "description": "课程中完成过Power BI/Tableau数据建模或报表任务。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "BI报表项目",
+              "description": "项目能展示数据准备、建模、可视化和报表资产管理。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "BI与可视化职责",
+              "description": "工作或实习中使用BI工具完成报表、指标可视化或资产维护。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "communication_collaboration",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "sql-analysis",
+            "python-analysis",
+            "product-operations-analysis"
+          ]
+        },
+        {
+          "directionId": "product-operations-analysis",
+          "name": "产品与运营分析",
+          "aliases": [
+            "用户分析",
+            "经营分析"
+          ],
+          "description": "面向用户分析、经营分析和数据驱动的产品运营决策。",
+          "coreSkills": [
+            {
+              "name": "业务指标与数据建模",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "PL-300能力覆盖数据准备、建模、指标和可视化，适合产品与运营分析。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300"
+              ]
+            },
+            {
+              "name": "用户与经营分析",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "产品与运营分析可评估数据准备、建模、指标、洞察表达和数据安全。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300",
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "Python数据处理",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "Python可处理更复杂数据，但产品运营分析不一定要求编程。",
+              "sourceIds": [
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "产品运营分析课程",
+              "description": "课程中完成过业务指标、用户分析或经营分析任务。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300",
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "产品与运营分析项目",
+              "description": "项目能展示业务指标、数据建模、用户分群和洞察表达。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300",
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "产品运营分析职责",
+              "description": "工作或实习中负责业务指标、用户分析或经营报表输出。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PL300",
+                "SRC-PANDAS-TUTORIALS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "communication_collaboration",
+            "planning_execution",
+            "feedback_accountability"
+          ],
+          "adjacentDirectionIds": [
+            "sql-analysis",
+            "business-intelligence",
+            "python-analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "data-engineering-bigdata",
+      "name": "数据工程与大数据",
+      "summary": "面向ETL、数据仓库、离线计算和实时计算的数据工程方向。",
+      "directions": [
+        {
+          "directionId": "etl-data-integration",
+          "name": "ETL与数据集成",
+          "aliases": [
+            "数据同步",
+            "数据管道"
+          ],
+          "description": "构建、调度和维护可恢复的数据集成管道。",
+          "coreSkills": [
+            {
+              "name": "DAG建模与任务依赖",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Airflow官方核心概念覆盖DAG、任务、依赖、调度、重试、超时和执行器。",
+              "sourceIds": [
+                "SRC-AIRFLOW-CONCEPTS"
+              ]
+            },
+            {
+              "name": "数据接入与转换",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "DP-203描述结构化、非结构化与流式数据的集成转换以及数据管道、数据存储和批流处理。",
+              "sourceIds": [
+                "SRC-MICROSOFT-DP203"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "批流处理",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "批流处理是数据集成的重要扩展，但初级ETL可降低为支持项。",
+              "sourceIds": [
+                "SRC-MICROSOFT-DP203"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "数据集成课程",
+              "description": "课程中完成过ETL管道、调度或数据同步任务。",
+              "sourceIds": [
+                "SRC-AIRFLOW-CONCEPTS",
+                "SRC-MICROSOFT-DP203"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "ETL管道项目",
+              "description": "项目能展示DAG建模、任务依赖、调度、重试和可恢复数据管道。",
+              "sourceIds": [
+                "SRC-AIRFLOW-CONCEPTS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "ETL数据集成职责",
+              "description": "工作或实习中负责数据管道开发、调度或数据集成问题排查。",
+              "sourceIds": [
+                "SRC-AIRFLOW-CONCEPTS",
+                "SRC-MICROSOFT-DP203"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "data-warehouse",
+            "batch-computing",
+            "stream-computing"
+          ]
+        },
+        {
+          "directionId": "data-warehouse",
+          "name": "数据仓库",
+          "aliases": [
+            "数仓",
+            "Data Warehouse"
+          ],
+          "description": "设计、构建和维护数据仓库模型与数据管道。",
+          "coreSkills": [
+            {
+              "name": "数仓建模与数据管道",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "DP-203覆盖数据接入转换、管道编排、数据存储、SQL或编程处理。",
+              "sourceIds": [
+                "SRC-MICROSOFT-DP203"
+              ]
+            },
+            {
+              "name": "SQL与批处理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "数据仓库方向可评估数据接入转换、管道编排和SQL处理能力。",
+              "sourceIds": [
+                "SRC-MICROSOFT-DP203",
+                "SRC-AIRFLOW-CONCEPTS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "实时数仓",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "实时数仓是进阶场景，不要求所有数仓岗位必备。",
+              "sourceIds": [
+                "SRC-FLINK-DOCS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "数据仓库课程",
+              "description": "课程中完成过数仓建模、SQL处理或管道编排任务。",
+              "sourceIds": [
+                "SRC-MICROSOFT-DP203",
+                "SRC-AIRFLOW-CONCEPTS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "数仓项目",
+              "description": "项目能展示数仓建模、数据管道、SQL处理和数据存储。",
+              "sourceIds": [
+                "SRC-MICROSOFT-DP203",
+                "SRC-AIRFLOW-CONCEPTS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "数仓开发职责",
+              "description": "工作或实习中负责数仓建模、数据管道或SQL任务。",
+              "sourceIds": [
+                "SRC-MICROSOFT-DP203"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "planning_execution",
+            "quality_discipline",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "etl-data-integration",
+            "batch-computing",
+            "data-governance"
+          ]
+        },
+        {
+          "directionId": "batch-computing",
+          "name": "离线计算",
+          "aliases": [
+            "Hadoop",
+            "Spark"
+          ],
+          "description": "使用Spark等分布式计算框架处理离线批量数据。",
+          "coreSkills": [
+            {
+              "name": "分布式数据集与转换动作",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Spark官方快速入门覆盖Dataset/DataFrame、转换与动作、缓存和分布式数据处理。",
+              "sourceIds": [
+                "SRC-SPARK-QUICKSTART"
+              ]
+            },
+            {
+              "name": "SQL/DataFrame处理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "离线计算方向可评估分布式数据集、转换与动作、SQL/DataFrame、分区和性能基础。",
+              "sourceIds": [
+                "SRC-SPARK-QUICKSTART"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "离线计算课程",
+              "description": "课程中完成过Spark数据处理、DataFrame或批处理任务。",
+              "sourceIds": [
+                "SRC-SPARK-QUICKSTART"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Spark离线计算项目",
+              "description": "项目能展示分布式数据集、转换动作、SQL/DataFrame和性能基础。",
+              "sourceIds": [
+                "SRC-SPARK-QUICKSTART"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "离线计算开发职责",
+              "description": "工作或实习中使用Spark等框架处理批量数据。",
+              "sourceIds": [
+                "SRC-SPARK-QUICKSTART"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "etl-data-integration",
+            "data-warehouse",
+            "stream-computing"
+          ]
+        },
+        {
+          "directionId": "stream-computing",
+          "name": "实时计算",
+          "aliases": [
+            "Flink",
+            "Kafka Streams"
+          ],
+          "description": "使用Flink等有状态流处理框架处理实时数据流。",
+          "coreSkills": [
+            {
+              "name": "事件流与时间语义",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Flink官方文档覆盖有状态流处理、有限与无限数据流、Table/SQL、DataStream、容错和部署。",
+              "sourceIds": [
+                "SRC-FLINK-DOCS"
+              ]
+            },
+            {
+              "name": "状态、窗口与容错",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "实时计算方向可评估事件流、时间语义、状态、窗口、容错、SQL/DataStream和部署运维。",
+              "sourceIds": [
+                "SRC-FLINK-DOCS"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "实时计算课程",
+              "description": "课程中完成过Flink流处理、窗口或状态任务。",
+              "sourceIds": [
+                "SRC-FLINK-DOCS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Flink实时计算项目",
+              "description": "项目能展示事件流、时间语义、状态、窗口、容错和部署。",
+              "sourceIds": [
+                "SRC-FLINK-DOCS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "实时计算开发职责",
+              "description": "工作或实习中使用Flink等框架处理实时数据流。",
+              "sourceIds": [
+                "SRC-FLINK-DOCS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "batch-computing",
+            "etl-data-integration",
+            "data-warehouse"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "ai-algorithm",
+      "name": "人工智能与算法",
+      "summary": "面向机器学习、深度学习、计算机视觉、NLP和LLM应用的技术方向。",
+      "directions": [
+        {
+          "directionId": "machine-learning",
+          "name": "机器学习",
+          "aliases": [
+            "ML",
+            "传统机器学习"
+          ],
+          "description": "使用数据处理、特征、模型训练和评估解决经典机器学习问题。",
+          "coreSkills": [
+            {
+              "name": "数据处理与特征工程",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Google MLCC覆盖数据、模型、训练、评估、分类、过拟合和生产ML基础。",
+              "sourceIds": [
+                "SRC-GOOGLE-MLCC"
+              ]
+            },
+            {
+              "name": "模型训练与评估",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "机器学习方向可评估数据处理、特征、模型训练、指标、泛化、误差分析和实验表达。",
+              "sourceIds": [
+                "SRC-GOOGLE-MLCC"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "生产ML基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "生产ML是进阶能力，初级机器学习岗可降低为支持项。",
+              "sourceIds": [
+                "SRC-GOOGLE-MLCC"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080907T",
+            "080910T",
+            "510201",
+            "510209"
+          ],
+          "courseSignals": [
+            {
+              "name": "机器学习课程",
+              "description": "课程中完成过数据、特征、模型训练或评估任务。",
+              "sourceIds": [
+                "SRC-GOOGLE-MLCC"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "机器学习项目",
+              "description": "项目能展示数据处理、特征工程、模型训练、指标和泛化分析。",
+              "sourceIds": [
+                "SRC-GOOGLE-MLCC"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "机器学习职责",
+              "description": "工作或实习中完成模型训练、评估或机器学习实验。",
+              "sourceIds": [
+                "SRC-GOOGLE-MLCC"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "deep-learning",
+            "computer-vision",
+            "natural-language-processing"
+          ]
+        },
+        {
+          "directionId": "deep-learning",
+          "name": "深度学习",
+          "aliases": [
+            "DL",
+            "神经网络"
+          ],
+          "description": "使用PyTorch等框架构建、训练和验证神经网络模型。",
+          "coreSkills": [
+            {
+              "name": "张量与数据管道",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "PyTorch基础教程覆盖张量、数据集、模型构建、自动微分、优化和模型保存加载。",
+              "sourceIds": [
+                "SRC-PYTORCH-BASICS"
+              ]
+            },
+            {
+              "name": "网络构建与训练验证",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "深度学习方向可评估张量与数据管道、网络构建、损失与优化、训练验证和模型持久化。",
+              "sourceIds": [
+                "SRC-PYTORCH-BASICS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "模型部署与优化",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "部署与优化是深度学习进阶工程能力，不要求所有岗位必备。",
+              "sourceIds": [
+                "SRC-PYTORCH-BASICS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080907T",
+            "080910T",
+            "510201",
+            "510209"
+          ],
+          "courseSignals": [
+            {
+              "name": "深度学习课程",
+              "description": "课程中完成过PyTorch模型构建、训练或验证任务。",
+              "sourceIds": [
+                "SRC-PYTORCH-BASICS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "深度学习项目",
+              "description": "项目能展示张量处理、网络构建、损失优化、训练验证和模型保存。",
+              "sourceIds": [
+                "SRC-PYTORCH-BASICS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "深度学习职责",
+              "description": "工作或实习中构建、训练或调优神经网络模型。",
+              "sourceIds": [
+                "SRC-PYTORCH-BASICS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "machine-learning",
+            "computer-vision",
+            "natural-language-processing"
+          ]
+        },
+        {
+          "directionId": "computer-vision",
+          "name": "计算机视觉",
+          "aliases": [
+            "CV",
+            "图像算法"
+          ],
+          "description": "使用OpenCV等工具进行图像视频处理、几何标定、特征、检测和评估。",
+          "coreSkills": [
+            {
+              "name": "图像与视频处理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "OpenCV教程覆盖图像处理、视频分析、相机标定、特征、目标检测和DNN模块。",
+              "sourceIds": [
+                "SRC-OPENCV-TUTORIALS"
+              ]
+            },
+            {
+              "name": "几何标定与特征检测",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "计算机视觉方向可评估图像与视频处理、几何与标定、特征、检测模型和结果评估。",
+              "sourceIds": [
+                "SRC-OPENCV-TUTORIALS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "视觉模型评估",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "模型评估是CV重要实践，但初级岗位不一定要求完整评估体系。",
+              "sourceIds": [
+                "SRC-OPENCV-TUTORIALS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080907T",
+            "080910T",
+            "510201",
+            "510209"
+          ],
+          "courseSignals": [
+            {
+              "name": "计算机视觉课程",
+              "description": "课程中完成过OpenCV图像处理、特征或目标检测任务。",
+              "sourceIds": [
+                "SRC-OPENCV-TUTORIALS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "计算机视觉项目",
+              "description": "项目能展示图像视频处理、几何标定、特征检测和结果评估。",
+              "sourceIds": [
+                "SRC-OPENCV-TUTORIALS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "计算机视觉职责",
+              "description": "工作或实习中开发图像处理、目标检测或视觉算法。",
+              "sourceIds": [
+                "SRC-OPENCV-TUTORIALS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "deep-learning",
+            "machine-learning",
+            "vr-content"
+          ]
+        },
+        {
+          "directionId": "natural-language-processing",
+          "name": "自然语言处理",
+          "aliases": [
+            "NLP",
+            "文本算法"
+          ],
+          "description": "使用文本预处理、Transformer和模型调用或微调处理NLP任务。",
+          "coreSkills": [
+            {
+              "name": "文本预处理与Transformer",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Hugging Face课程覆盖NLP、Transformer、Datasets、Tokenizers、模型使用与微调。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            },
+            {
+              "name": "模型调用与数据集评估",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "NLP方向可评估文本预处理、Transformer、模型调用或微调、数据集、评估和应用边界。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "LLM应用基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "portfolio"
+              ],
+              "rationale": "LLM应用是NLP方向的重要延伸，但不是所有NLP岗位必备。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080907T",
+            "080910T",
+            "510201",
+            "510209"
+          ],
+          "courseSignals": [
+            {
+              "name": "NLP课程",
+              "description": "课程中完成过文本预处理、Transformer或模型微调任务。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "NLP项目",
+              "description": "项目能展示文本处理、Transformer、模型调用/微调和评估。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "NLP职责",
+              "description": "工作或实习中处理NLP模型、数据集或文本算法任务。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "llm-application",
+            "deep-learning",
+            "machine-learning"
+          ]
+        },
+        {
+          "directionId": "llm-application",
+          "name": "LLM应用",
+          "aliases": [
+            "大模型应用",
+            "RAG",
+            "Agent应用"
+          ],
+          "description": "使用LLM、RAG和Agent等技术开发大模型应用并评估其边界。",
+          "coreSkills": [
+            {
+              "name": "LLM调用与微调基础",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Hugging Face课程覆盖Transformer、模型使用、微调和LLM基础。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            },
+            {
+              "name": "数据集与评估应用边界",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "LLM应用方向可评估文本预处理、Transformer、模型调用或微调、数据集、评估和应用边界。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080907T",
+            "080910T",
+            "510201",
+            "510209"
+          ],
+          "courseSignals": [
+            {
+              "name": "LLM应用课程",
+              "description": "课程中完成过模型调用、微调或LLM应用任务。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "LLM应用项目",
+              "description": "项目能展示LLM调用、数据集、评估和应用边界。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "LLM应用职责",
+              "description": "工作或实习中开发或维护大模型应用。",
+              "sourceIds": [
+                "SRC-HF-LLM-COURSE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "natural-language-processing",
+            "deep-learning",
+            "python-backend"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "embedded-iot",
+      "name": "嵌入式与物联网",
+      "summary": "面向MCU、RTOS、嵌入式Linux、驱动开发和IoT平台的技术方向。",
+      "directions": [
+        {
+          "directionId": "mcu-development",
+          "name": "MCU开发",
+          "aliases": [
+            "单片机",
+            "STM32"
+          ],
+          "description": "使用C/C++进行MCU外设、寄存器、编译调试和硬件接口开发。",
+          "coreSkills": [
+            {
+              "name": "C/C++与外设寄存器",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "STM32CubeIDE官方说明用于STM32的C/C++代码编辑、编译、调试，并支持寄存器、内存和故障分析。",
+              "sourceIds": [
+                "SRC-STM32-CUBEIDE"
+              ]
+            },
+            {
+              "name": "编译调试与故障定位",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "MCU开发方向可评估C/C++、外设与寄存器、编译链接、下载调试、故障定位和硬件接口基础。",
+              "sourceIds": [
+                "SRC-STM32-CUBEIDE"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "RTOS基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "RTOS是MCU开发常见进阶能力，但在裸机岗位可能不是必备。",
+              "sourceIds": [
+                "SRC-FREERTOS-DOCS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080905",
+            "080909T",
+            "510201",
+            "510210"
+          ],
+          "courseSignals": [
+            {
+              "name": "MCU开发课程",
+              "description": "课程中完成过STM32外设、寄存器或调试任务。",
+              "sourceIds": [
+                "SRC-STM32-CUBEIDE"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "MCU项目",
+              "description": "项目能展示外设寄存器配置、编译调试、故障定位和硬件接口基础。",
+              "sourceIds": [
+                "SRC-STM32-CUBEIDE"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "MCU开发职责",
+              "description": "工作或实习中开发MCU程序、调试硬件或维护嵌入式代码。",
+              "sourceIds": [
+                "SRC-STM32-CUBEIDE"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "rtos",
+            "device-driver",
+            "iot-platform"
+          ]
+        },
+        {
+          "directionId": "rtos",
+          "name": "RTOS",
+          "aliases": [
+            "FreeRTOS",
+            "实时操作系统"
+          ],
+          "description": "使用FreeRTOS等实时操作系统完成任务调度、同步和实时应用开发。",
+          "coreSkills": [
+            {
+              "name": "任务调度与同步通信",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "FreeRTOS官方文档覆盖任务调度、队列、信号量、软件定时器和微控制器实时应用。",
+              "sourceIds": [
+                "SRC-FREERTOS-DOCS"
+              ]
+            },
+            {
+              "name": "并发问题与实时性",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "RTOS方向可评估任务与调度、同步通信、定时、资源约束、并发问题和实时性。",
+              "sourceIds": [
+                "SRC-FREERTOS-DOCS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "MCU硬件基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "course"
+              ],
+              "rationale": "RTOS运行在MCU上，硬件基础是重要支持能力。",
+              "sourceIds": [
+                "SRC-STM32-CUBEIDE"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080905",
+            "080909T",
+            "510201",
+            "510210"
+          ],
+          "courseSignals": [
+            {
+              "name": "RTOS课程",
+              "description": "课程中完成过FreeRTOS任务、队列或信号量任务。",
+              "sourceIds": [
+                "SRC-FREERTOS-DOCS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "RTOS项目",
+              "description": "项目能展示任务调度、同步通信、定时和实时性分析。",
+              "sourceIds": [
+                "SRC-FREERTOS-DOCS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "RTOS开发职责",
+              "description": "工作或实习中使用FreeRTOS等开发实时嵌入式应用。",
+              "sourceIds": [
+                "SRC-FREERTOS-DOCS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "mcu-development",
+            "device-driver",
+            "embedded-linux"
+          ]
+        },
+        {
+          "directionId": "embedded-linux",
+          "name": "嵌入式Linux",
+          "aliases": [
+            "Linux嵌入式"
+          ],
+          "description": "使用Yocto等工具定制嵌入式Linux镜像、BSP和内核配置。",
+          "coreSkills": [
+            {
+              "name": "交叉编译与镜像构建",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Yocto官方文档覆盖定制嵌入式Linux镜像、工具链、BSP、内核、构建和安全。",
+              "sourceIds": [
+                "SRC-YOCTO-DOCS"
+              ]
+            },
+            {
+              "name": "BSP与内核根文件系统配置",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "嵌入式Linux方向可评估交叉编译、镜像构建、BSP、内核与根文件系统配置和可复现构建。",
+              "sourceIds": [
+                "SRC-YOCTO-DOCS"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "驱动开发基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "驱动开发与嵌入式Linux密切相关，但不是所有嵌入式Linux岗位必备。",
+              "sourceIds": [
+                "SRC-LINUX-DRIVER-API"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080905",
+            "080909T",
+            "510201",
+            "510210"
+          ],
+          "courseSignals": [
+            {
+              "name": "嵌入式Linux课程",
+              "description": "课程中完成过Yocto、BSP或内核配置任务。",
+              "sourceIds": [
+                "SRC-YOCTO-DOCS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "嵌入式Linux项目",
+              "description": "项目能展示交叉编译、镜像构建、BSP和根文件系统配置。",
+              "sourceIds": [
+                "SRC-YOCTO-DOCS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "嵌入式Linux开发职责",
+              "description": "工作或实习中定制Linux镜像、BSP或内核配置。",
+              "sourceIds": [
+                "SRC-YOCTO-DOCS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "planning_execution",
+            "quality_discipline",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "device-driver",
+            "rtos",
+            "iot-platform"
+          ]
+        },
+        {
+          "directionId": "device-driver",
+          "name": "驱动开发",
+          "aliases": [
+            "Linux驱动",
+            "BSP"
+          ],
+          "description": "开发Linux内核驱动、处理设备与总线、资源中断和并发调试。",
+          "coreSkills": [
+            {
+              "name": "内核驱动模型与设备绑定",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Linux内核官方驱动API指南覆盖驱动模型、设备绑定、总线、平台设备及各类驱动接口。",
+              "sourceIds": [
+                "SRC-LINUX-DRIVER-API"
+              ]
+            },
+            {
+              "name": "资源中断与并发",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "驱动开发方向可评估内核驱动模型、设备与总线、资源和中断、并发、调试及硬件抽象。",
+              "sourceIds": [
+                "SRC-LINUX-DRIVER-API"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "嵌入式Linux构建",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "驱动开发通常需要嵌入式Linux构建知识，但可由团队分工。",
+              "sourceIds": [
+                "SRC-YOCTO-DOCS"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080905",
+            "080909T",
+            "510201",
+            "510210"
+          ],
+          "courseSignals": [
+            {
+              "name": "驱动开发课程",
+              "description": "课程中完成过Linux驱动、设备模型或中断任务。",
+              "sourceIds": [
+                "SRC-LINUX-DRIVER-API"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "驱动开发项目",
+              "description": "项目能展示内核驱动模型、设备绑定、资源中断和并发调试。",
+              "sourceIds": [
+                "SRC-LINUX-DRIVER-API"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "驱动开发职责",
+              "description": "工作或实习中开发或维护Linux驱动、BSP或硬件抽象层。",
+              "sourceIds": [
+                "SRC-LINUX-DRIVER-API"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "learning_problem_solving",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "embedded-linux",
+            "rtos",
+            "mcu-development"
+          ]
+        },
+        {
+          "directionId": "iot-platform",
+          "name": "IoT平台",
+          "aliases": [
+            "物联网平台",
+            "边缘计算"
+          ],
+          "description": "通过MQTT/HTTPS等协议实现设备连接、身份安全、消息路由和云端集成。",
+          "coreSkills": [
+            {
+              "name": "设备连接与消息协议",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "AWS IoT官方文档说明设备通过MQTT、MQTT over WSS和HTTPS等协议安全通信。",
+              "sourceIds": [
+                "SRC-AWS-IOT-PROTOCOLS"
+              ]
+            },
+            {
+              "name": "身份安全与消息路由",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "IoT平台方向可评估设备连接、MQTT或HTTPS、身份与安全、消息路由、状态和云端集成。",
+              "sourceIds": [
+                "SRC-AWS-IOT-PROTOCOLS"
+              ]
+            }
+          ],
+          "supportingSkills": [],
+          "relatedMajorCodes": [
+            "080901",
+            "080905",
+            "510201",
+            "510202",
+            "510211"
+          ],
+          "courseSignals": [
+            {
+              "name": "IoT平台课程",
+              "description": "课程中完成过MQTT、设备连接或消息路由任务。",
+              "sourceIds": [
+                "SRC-AWS-IOT-PROTOCOLS"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "IoT平台项目",
+              "description": "项目能展示设备连接、MQTT/HTTPS、身份安全、消息路由和云端集成。",
+              "sourceIds": [
+                "SRC-AWS-IOT-PROTOCOLS"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "IoT平台开发职责",
+              "description": "工作或实习中开发设备接入、消息路由或IoT平台集成。",
+              "sourceIds": [
+                "SRC-AWS-IOT-PROTOCOLS"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "communication_collaboration",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "mcu-development",
+            "embedded-linux",
+            "cloud-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "database-data-platform",
+      "name": "数据库与数据平台",
+      "summary": "面向数据库开发、管理、性能备份和数据治理的技术方向。",
+      "directions": [
+        {
+          "directionId": "database-development",
+          "name": "数据库开发",
+          "aliases": [
+            "SQL开发",
+            "存储过程"
+          ],
+          "description": "负责SQL与数据模型设计、查询优化和存储过程开发。",
+          "coreSkills": [
+            {
+              "name": "SQL与数据模型",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "MySQL优化文档覆盖查询、索引、数据类型、存储引擎、EXPLAIN和性能验证。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            },
+            {
+              "name": "索引与执行计划",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "数据库开发方向可评估SQL与数据模型、索引、执行计划、事务锁和性能验证。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "事务锁与并发基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "MySQL官方优化文档覆盖锁和性能验证，可作为数据库开发的支持能力。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "数据库开发课程",
+              "description": "课程中完成过SQL、索引、事务锁或执行计划任务。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "数据库开发项目",
+              "description": "项目能展示SQL与数据模型、索引、执行计划和性能验证。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "数据库开发职责",
+              "description": "工作或实习中承担SQL开发、数据模型设计或性能优化。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "quality_discipline",
+            "planning_execution",
+            "learning_problem_solving"
+          ],
+          "adjacentDirectionIds": [
+            "database-administration",
+            "database-performance",
+            "data-governance"
+          ]
+        },
+        {
+          "directionId": "database-administration",
+          "name": "数据库管理",
+          "aliases": [
+            "DBA",
+            "数据库运维"
+          ],
+          "description": "负责数据库安装、权限、运行维护、备份恢复和性能管理。",
+          "coreSkills": [
+            {
+              "name": "备份与恢复",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work",
+                "certificate"
+              ],
+              "rationale": "PostgreSQL官方文档覆盖SQL转储、文件系统备份和连续归档与时间点恢复。",
+              "sourceIds": [
+                "SRC-POSTGRESQL-BACKUP"
+              ]
+            },
+            {
+              "name": "权限与运行维护",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "数据库管理员需评估备份策略、恢复演练、连续归档、权限与运行维护。",
+              "sourceIds": [
+                "SRC-POSTGRESQL-BACKUP",
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "性能监控",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "性能监控是DBA常见能力，但初级管理可结合运维实践评估。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "数据库管理课程",
+              "description": "课程中完成过备份恢复、权限或运维任务。",
+              "sourceIds": [
+                "SRC-POSTGRESQL-BACKUP",
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "数据库管理项目",
+              "description": "项目能展示备份策略、恢复演练、权限和运行维护。",
+              "sourceIds": [
+                "SRC-POSTGRESQL-BACKUP",
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "数据库管理职责",
+              "description": "工作或实习中负责数据库运维、备份恢复或权限管理。",
+              "sourceIds": [
+                "SRC-POSTGRESQL-BACKUP",
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "responsibility_initiative",
+            "quality_discipline",
+            "feedback_accountability"
+          ],
+          "adjacentDirectionIds": [
+            "database-performance",
+            "database-development",
+            "data-governance"
+          ]
+        },
+        {
+          "directionId": "database-performance",
+          "name": "性能与备份",
+          "aliases": [
+            "SQL优化",
+            "高可用",
+            "备份恢复"
+          ],
+          "description": "面向SQL优化、高可用、备份恢复和性能验证的数据库专项能力。",
+          "coreSkills": [
+            {
+              "name": "SQL优化与执行计划",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "MySQL官方优化文档覆盖查询、索引、数据类型、存储引擎、EXPLAIN、缓存、锁和基准测试。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            },
+            {
+              "name": "备份恢复与高可用",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "性能与备份方向可评估SQL优化、高可用、备份恢复和恢复演练。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION",
+                "SRC-POSTGRESQL-BACKUP"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "基准测试与监控",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "基准测试是性能验证的重要工具，但深度因岗位而异。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "数据库性能课程",
+              "description": "课程中完成过SQL优化、备份恢复或性能分析任务。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION",
+                "SRC-POSTGRESQL-BACKUP"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "数据库性能项目",
+              "description": "项目能展示SQL优化、执行计划、备份恢复和性能验证。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION",
+                "SRC-POSTGRESQL-BACKUP"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "数据库性能优化职责",
+              "description": "工作或实习中负责SQL优化、高可用或备份恢复。",
+              "sourceIds": [
+                "SRC-MYSQL-OPTIMIZATION",
+                "SRC-POSTGRESQL-BACKUP"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "database-administration",
+            "database-development",
+            "data-governance"
+          ]
+        },
+        {
+          "directionId": "data-governance",
+          "name": "数据治理",
+          "aliases": [
+            "元数据",
+            "数据质量",
+            "主数据"
+          ],
+          "description": "围绕元数据与目录、数据血缘、质量规则、分级和权限开展治理。",
+          "coreSkills": [
+            {
+              "name": "元数据与目录",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Microsoft Purview官方概览覆盖数据地图、目录、元数据、数据质量、血缘和治理职责。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PURVIEW"
+              ]
+            },
+            {
+              "name": "血缘质量与权限",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "数据治理方向可评估元数据与目录、血缘、质量规则、分级、权限和治理流程。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PURVIEW"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "数据安全与合规",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "certificate",
+                "project"
+              ],
+              "rationale": "数据安全与合规是治理的重要背景，可依行业要求评估。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PURVIEW"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080910T",
+            "510201",
+            "510203",
+            "510205"
+          ],
+          "courseSignals": [
+            {
+              "name": "数据治理课程",
+              "description": "课程中完成过元数据、血缘、数据质量或权限任务。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PURVIEW"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "数据治理项目",
+              "description": "项目能展示元数据目录、血缘、质量规则、分级和权限治理。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PURVIEW"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "数据治理职责",
+              "description": "工作或实习中负责元数据、数据质量、分级或治理流程。",
+              "sourceIds": [
+                "SRC-MICROSOFT-PURVIEW"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "communication_collaboration",
+            "feedback_accountability",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "database-administration",
+            "data-warehouse",
+            "security-compliance"
+          ]
+        }
+      ]
+    },
+    {
+      "roleId": "game-graphics-vr",
+      "name": "游戏、图形与VR/数字媒体",
+      "summary": "面向游戏开发、图形渲染、VR内容和数字媒体技术的方向。",
+      "directions": [
+        {
+          "directionId": "unity-development",
+          "name": "Unity开发",
+          "aliases": [
+            "Unity",
+            "C#游戏开发"
+          ],
+          "description": "使用Unity和C#脚本开发场景、对象、交互与调试。",
+          "coreSkills": [
+            {
+              "name": "C#脚本与交互",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Unity官方学习路径覆盖脚本、交互、调试、版本控制和初级Unity开发能力。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR"
+              ]
+            },
+            {
+              "name": "场景与对象管理",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "Unity开发可评估C#脚本、场景与对象、交互逻辑、资源组织、调试和版本控制。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "版本控制与资源组织",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "portfolio"
+              ],
+              "rationale": "版本控制和资源组织是Unity工程实践，但不是所有游戏岗位核心。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080906",
+            "080916T",
+            "510201",
+            "510203",
+            "510204",
+            "510215"
+          ],
+          "courseSignals": [
+            {
+              "name": "Unity开发课程",
+              "description": "课程中完成过C#脚本、场景或交互任务。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Unity项目",
+              "description": "项目能展示C#脚本、场景对象、交互逻辑、资源和调试。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Unity开发职责",
+              "description": "工作或实习中使用Unity开发游戏场景、交互或调试。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "unreal-development",
+            "graphics-rendering",
+            "vr-content"
+          ]
+        },
+        {
+          "directionId": "unreal-development",
+          "name": "Unreal Engine开发",
+          "aliases": [
+            "UE",
+            "UE5"
+          ],
+          "description": "使用Blueprint或C++构建Unreal关卡、Actor、交互和实时三维内容。",
+          "coreSkills": [
+            {
+              "name": "Blueprint或C++开发",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Unreal官方入门资料覆盖C++、Blueprint和实时三维交互内容开发。",
+              "sourceIds": [
+                "SRC-UNREAL-GETSTARTED"
+              ]
+            },
+            {
+              "name": "关卡与Actor交互",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "Unreal方向可评估Blueprint或C++、关卡与Actor、交互、资源管线、调试和性能基础。",
+              "sourceIds": [
+                "SRC-UNREAL-GETSTARTED"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "资源管线与性能基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "portfolio"
+              ],
+              "rationale": "资源管线和性能是Unreal进阶工程能力。",
+              "sourceIds": [
+                "SRC-UNREAL-GETSTARTED"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080906",
+            "080916T",
+            "510201",
+            "510203",
+            "510204",
+            "510215"
+          ],
+          "courseSignals": [
+            {
+              "name": "Unreal课程",
+              "description": "课程中完成过Blueprint、C++、关卡或Actor任务。",
+              "sourceIds": [
+                "SRC-UNREAL-GETSTARTED"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "Unreal项目",
+              "description": "项目能展示Blueprint/C++、关卡Actor、交互、资源管线和调试。",
+              "sourceIds": [
+                "SRC-UNREAL-GETSTARTED"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "Unreal开发职责",
+              "description": "工作或实习中使用Unreal开发实时三维交互内容。",
+              "sourceIds": [
+                "SRC-UNREAL-GETSTARTED"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "communication_collaboration"
+          ],
+          "adjacentDirectionIds": [
+            "unity-development",
+            "graphics-rendering",
+            "vr-content"
+          ]
+        },
+        {
+          "directionId": "graphics-rendering",
+          "name": "图形与渲染",
+          "aliases": [
+            "OpenGL",
+            "DirectX",
+            "Shader"
+          ],
+          "description": "使用OpenGL等图形API理解渲染管线、缓冲纹理、着色器和性能分析。",
+          "coreSkills": [
+            {
+              "name": "渲染管线与图形上下文",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Khronos OpenGL入门资料覆盖图形上下文、函数加载、渲染循环及C/C++绑定基础。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENGL"
+              ]
+            },
+            {
+              "name": "缓冲纹理与着色器",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "图形渲染方向可评估渲染管线、图形上下文、缓冲与纹理、着色器、坐标变换和性能分析基础。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENGL"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "性能分析基础",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "certificate"
+              ],
+              "rationale": "性能分析是图形渲染的重要能力，但不一定作为初级岗位核心。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENGL"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080906",
+            "080916T",
+            "510201",
+            "510203",
+            "510204"
+          ],
+          "courseSignals": [
+            {
+              "name": "图形学与渲染课程",
+              "description": "课程中完成过OpenGL渲染管线、着色器或坐标变换任务。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENGL"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "图形渲染项目",
+              "description": "项目能展示渲染管线、图形上下文、缓冲纹理、着色器和性能分析。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENGL"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "图形渲染职责",
+              "description": "工作或实习中开发图形渲染、Shader或渲染性能优化。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENGL"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "quality_discipline",
+            "planning_execution"
+          ],
+          "adjacentDirectionIds": [
+            "unity-development",
+            "unreal-development",
+            "vr-content"
+          ]
+        },
+        {
+          "directionId": "vr-content",
+          "name": "VR内容与交互",
+          "aliases": [
+            "虚拟现实",
+            "XR",
+            "AR"
+          ],
+          "description": "使用OpenXR等接口开发空间坐标跟踪、输入交互、会话和帧渲染。",
+          "coreSkills": [
+            {
+              "name": "空间坐标与输入交互",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "OpenXR定义跨平台AR、VR和XR应用访问设备、控制器、跟踪、会话与帧循环的标准接口。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENXR"
+              ]
+            },
+            {
+              "name": "会话生命周期与帧渲染",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "VR内容与交互方向可评估空间坐标与跟踪、输入交互、会话生命周期、帧渲染和设备适配。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENXR"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "设备适配",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "portfolio"
+              ],
+              "rationale": "设备适配是XR工程常见问题，但可由项目场景评估。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENXR"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080906",
+            "080916T",
+            "510201",
+            "510203",
+            "510204",
+            "510208"
+          ],
+          "courseSignals": [
+            {
+              "name": "VR/XR课程",
+              "description": "课程中完成过OpenXR空间跟踪、输入交互或会话任务。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENXR"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "VR内容项目",
+              "description": "项目能展示空间坐标、输入交互、会话生命周期和帧渲染。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENXR"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "VR内容开发职责",
+              "description": "工作或实习中开发VR/AR交互、设备适配或空间体验。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENXR"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "learning_problem_solving",
+            "communication_collaboration",
+            "quality_discipline"
+          ],
+          "adjacentDirectionIds": [
+            "graphics-rendering",
+            "unity-development",
+            "unreal-development"
+          ]
+        },
+        {
+          "directionId": "digital-media-production",
+          "name": "数字媒体技术",
+          "aliases": [
+            "动画技术",
+            "交互媒体"
+          ],
+          "description": "结合Unity/Unreal/OpenGL/OpenXR等工具进行动画、交互媒体和数字内容制作。",
+          "coreSkills": [
+            {
+              "name": "交互媒体制作",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "internship",
+                "work"
+              ],
+              "rationale": "Unity与Unreal官方资料均覆盖数字媒体交互、资源组织、调试和版本控制。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR",
+                "SRC-UNREAL-GETSTARTED"
+              ]
+            },
+            {
+              "name": "跨媒体技术集成",
+              "requirementLevel": "core",
+              "evidenceTypes": [
+                "project",
+                "work"
+              ],
+              "rationale": "数字媒体方向可评估交互、资源管线、图形或XR技术集成和内容交付。",
+              "sourceIds": [
+                "SRC-KHRONOS-OPENGL",
+                "SRC-KHRONOS-OPENXR"
+              ]
+            }
+          ],
+          "supportingSkills": [
+            {
+              "name": "动画技术",
+              "requirementLevel": "supporting",
+              "evidenceTypes": [
+                "project",
+                "portfolio"
+              ],
+              "rationale": "动画技术是数字媒体常见能力，但不同岗位可能侧重交互或图形。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR",
+                "SRC-UNREAL-GETSTARTED"
+              ]
+            }
+          ],
+          "relatedMajorCodes": [
+            "080901",
+            "080902",
+            "080906",
+            "080912T",
+            "080913T",
+            "510201",
+            "510203",
+            "510204",
+            "510215"
+          ],
+          "courseSignals": [
+            {
+              "name": "数字媒体技术课程",
+              "description": "课程中完成过动画、交互媒体或游戏资源制作任务。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR",
+                "SRC-UNREAL-GETSTARTED",
+                "SRC-KHRONOS-OPENGL"
+              ]
+            }
+          ],
+          "projectSignals": [
+            {
+              "name": "数字媒体项目",
+              "description": "项目能展示交互媒体、资源管线、图形/XR集成和内容交付。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR",
+                "SRC-UNREAL-GETSTARTED",
+                "SRC-KHRONOS-OPENGL",
+                "SRC-KHRONOS-OPENXR"
+              ]
+            }
+          ],
+          "workExperienceSignals": [
+            {
+              "name": "数字媒体制作职责",
+              "description": "工作或实习中参与动画、交互媒体或数字内容制作。",
+              "sourceIds": [
+                "SRC-UNITY-JUNIOR",
+                "SRC-UNREAL-GETSTARTED",
+                "SRC-KHRONOS-OPENGL"
+              ]
+            }
+          ],
+          "workStyleSignals": [
+            "communication_collaboration",
+            "learning_problem_solving",
+            "quality_discipline"
+          ],
+          "adjacentDirectionIds": [
+            "unity-development",
+            "unreal-development",
+            "graphics-rendering",
+            "vr-content"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-MDN-WEB",
+      "title": "Learn web development",
+      "publisher": "Mozilla Developer Network",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "MDN提供Web前端结构化学习路径，覆盖HTML、CSS、JavaScript、可访问性、工具链和工程基础。"
+    },
+    {
+      "id": "SRC-VUE-GUIDE",
+      "title": "Introduction | Vue.js",
+      "publisher": "Vue.js",
+      "url": "https://vuejs.org/guide/introduction.html",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Vue官方指南说明基于HTML、CSS和JavaScript构建声明式、组件化用户界面。"
+    },
+    {
+      "id": "SRC-REACT-QUICKSTART",
+      "title": "Quick Start | React",
+      "publisher": "React",
+      "url": "https://react.dev/learn",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "React官方入门覆盖组件、标记与样式、数据展示、条件与列表渲染、事件和状态。"
+    },
+    {
+      "id": "SRC-WECHAT-MINIPROGRAM",
+      "title": "框架 | 微信开放文档",
+      "publisher": "微信开放平台",
+      "url": "https://developers.weixin.qq.com/miniprogram/dev/framework/MINA.html",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "微信小程序官方框架文档说明逻辑层与视图层、WXML、WXSS、JavaScript、数据绑定、事件、路由、组件和原生API。"
+    },
+    {
+      "id": "SRC-SPRING-REST",
+      "title": "Building REST services with Spring",
+      "publisher": "Spring",
+      "url": "https://spring.io/guides/tutorials/rest/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Spring官方教程覆盖Spring Boot、HTTP操作、REST服务和Spring Data JPA等Java服务端实践。"
+    },
+    {
+      "id": "SRC-GO-GIN",
+      "title": "Developing a RESTful API with Go and Gin",
+      "publisher": "The Go Project",
+      "url": "https://go.dev/doc/tutorial/web-service-gin",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Go官方教程演示使用Gin实现端点、处理器、JSON请求响应和RESTful API。"
+    },
+    {
+      "id": "SRC-FASTAPI-TUTORIAL",
+      "title": "FastAPI Tutorial",
+      "publisher": "FastAPI",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "FastAPI官方教程覆盖类型声明、请求响应、数据校验、依赖、认证、数据库和OpenAPI文档。"
+    },
+    {
+      "id": "SRC-NODE-LEARN",
+      "title": "Node.js Learn",
+      "publisher": "Node.js",
+      "url": "https://nodejs.org/en/learn",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Node.js官方学习资料覆盖服务端JavaScript、异步流程、HTTP、文件系统、诊断和测试。"
+    },
+    {
+      "id": "SRC-BOOST-ASIO",
+      "title": "Boost.Asio",
+      "publisher": "Boost C++ Libraries",
+      "url": "https://www.boost.org/doc/libs/latest/doc/html/boost_asio.html",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Boost.Asio官方文档提供跨平台网络和底层I/O编程模型，支持同步与异步操作。"
+    },
+    {
+      "id": "SRC-ANDROID-COURSES",
+      "title": "Android Developers Courses",
+      "publisher": "Google Android Developers",
+      "url": "https://developer.android.com/courses",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Android官方课程覆盖Kotlin、Jetpack Compose、应用架构、数据存储、网络和测试。"
+    },
+    {
+      "id": "SRC-APPLE-APPDEV",
+      "title": "Develop in Swift Tutorials",
+      "publisher": "Apple Developer",
+      "url": "https://developer.apple.com/tutorials/app-dev-training",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Apple官方应用开发教程覆盖Swift、SwiftUI、状态、导航、持久化、网络、错误处理和测试。"
+    },
+    {
+      "id": "SRC-HARMONYOS-GUIDE",
+      "title": "HarmonyOS应用开发入门指南",
+      "publisher": "华为开发者联盟",
+      "url": "https://developer.huawei.com/consumer/cn/develop-novice-guide/",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "HarmonyOS官方入门指南介绍DevEco Studio、ArkTS、ArkUI和应用开发流程。"
+    },
+    {
+      "id": "SRC-FLUTTER-PLATFORM",
+      "title": "Platform integration | Flutter",
+      "publisher": "Flutter",
+      "url": "https://docs.flutter.dev/platform-integration",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Flutter官方文档说明使用单一代码库构建、测试和部署多平台原生编译应用，并处理平台集成。"
+    },
+    {
+      "id": "SRC-QT-DOCS",
+      "title": "Qt Documentation",
+      "publisher": "Qt Group",
+      "url": "https://doc.qt.io/",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Qt官方文档覆盖C++、QML、Qt Widgets及跨桌面、移动和嵌入式平台开发。"
+    },
+    {
+      "id": "SRC-DOTNET-DESKTOP",
+      "title": ".NET desktop applications",
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/dotnet/desktop/",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Microsoft官方桌面文档覆盖WPF、Windows Forms、WinUI和.NET MAUI。"
+    },
+    {
+      "id": "SRC-ELECTRON-DOCS",
+      "title": "Electron Documentation",
+      "publisher": "Electron",
+      "url": "https://www.electronjs.org/docs/latest/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Electron官方文档说明以JavaScript、HTML、CSS结合Chromium和Node.js构建跨平台桌面应用，并区分主进程与渲染进程。"
+    },
+    {
+      "id": "SRC-CMAKE-TUTORIAL",
+      "title": "CMake Tutorial",
+      "publisher": "CMake",
+      "url": "https://cmake.org/cmake/help/latest/guide/tutorial/index.html",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "CMake官方教程覆盖可执行程序和库的构建、链接、依赖、测试和安装。"
+    },
+    {
+      "id": "SRC-ISTQB-CTFL",
+      "title": "Certified Tester Foundation Level Syllabus v4.0.1",
+      "publisher": "International Software Testing Qualifications Board",
+      "url": "https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf",
+      "tier": "industry",
+      "publishedAt": "2024-11",
+      "retrievedAt": "2026-09-14",
+      "summary": "ISTQB基础级大纲覆盖测试基础、生命周期、静态测试、测试分析设计、管理与工具。"
+    },
+    {
+      "id": "SRC-PLAYWRIGHT-TESTS",
+      "title": "Writing tests | Playwright",
+      "publisher": "Microsoft Playwright",
+      "url": "https://playwright.dev/docs/writing-tests",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Playwright官方文档覆盖测试动作、断言、隔离、钩子和端到端自动化。"
+    },
+    {
+      "id": "SRC-PLAYWRIGHT-API",
+      "title": "API testing | Playwright",
+      "publisher": "Microsoft Playwright",
+      "url": "https://playwright.dev/docs/api-testing",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Playwright官方API测试文档覆盖HTTP请求、服务端状态准备、响应断言和端到端流程结合。"
+    },
+    {
+      "id": "SRC-JMETER-MANUAL",
+      "title": "Apache JMeter User's Manual",
+      "publisher": "Apache JMeter",
+      "url": "https://jmeter.apache.org/usermanual/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "JMeter官方手册覆盖测试计划、负载测试、结果分析、远程测试、实时结果和报告。"
+    },
+    {
+      "id": "SRC-KUBERNETES-TUTORIALS",
+      "title": "Kubernetes Tutorials",
+      "publisher": "Kubernetes",
+      "url": "https://kubernetes.io/docs/tutorials/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Kubernetes官方教程覆盖集群基础、应用配置、服务、无状态与有状态工作负载、安全和集群管理。"
+    },
+    {
+      "id": "SRC-DOCKER-OVERVIEW",
+      "title": "Docker overview",
+      "publisher": "Docker",
+      "url": "https://docs.docker.com/get-started/docker-overview/",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Docker官方概览覆盖客户端与守护进程、镜像、容器、仓库、网络和卷。"
+    },
+    {
+      "id": "SRC-GITHUB-ACTIONS",
+      "title": "Understanding GitHub Actions",
+      "publisher": "GitHub Docs",
+      "url": "https://docs.github.com/en/actions/get-started/understand-github-actions",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "GitHub官方文档说明使用工作流自动执行构建、测试和部署等CI/CD活动。"
+    },
+    {
+      "id": "SRC-GOOGLE-SRE",
+      "title": "Site Reliability Engineering",
+      "publisher": "Google",
+      "url": "https://sre.google/sre-book/table-of-contents/",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Google SRE资料覆盖风险、SLO、监控、自动化、发布工程、告警、值班、排障、事件响应和复盘。"
+    },
+    {
+      "id": "SRC-CISCO-CCNA",
+      "title": "CCNA Exam and Training",
+      "publisher": "Cisco",
+      "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/ccna-200-301.html",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Cisco CCNA能力范围覆盖网络基础、网络接入、IP连通性、IP服务、安全基础以及自动化和可编程性。"
+    },
+    {
+      "id": "SRC-NIST-NICE",
+      "title": "NICE Framework Resource Center",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/about",
+      "tier": "industry",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "NIST NICE以工作角色及任务、知识和技能陈述描述网络安全工作与人才能力。"
+    },
+    {
+      "id": "SRC-OWASP-WSTG",
+      "title": "Web Security Testing Guide",
+      "publisher": "OWASP Foundation",
+      "url": "https://owasp.org/www-project-web-security-testing-guide/latest/README",
+      "tier": "industry",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "OWASP WSTG提供Web应用安全测试的方法、测试领域、结果记录和报告参考。"
+    },
+    {
+      "id": "SRC-NIST-CRYPTO",
+      "title": "Cryptographic Standards and Guidelines",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://csrc.nist.gov/Projects/cryptographic-standards-and-guidelines/publications",
+      "tier": "industry",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "NIST密码标准与指南覆盖密码机制、算法、密钥管理及其安全应用。"
+    },
+    {
+      "id": "SRC-NIST-CSF2",
+      "title": "The NIST Cybersecurity Framework 2.0",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+      "tier": "industry",
+      "publishedAt": "2024-02-26",
+      "retrievedAt": "2026-09-14",
+      "summary": "NIST CSF 2.0以治理、识别、保护、检测、响应和恢复六项功能组织网络安全风险管理结果。"
+    },
+    {
+      "id": "SRC-MICROSOFT-PL300",
+      "title": "Study guide for Exam PL-300: Microsoft Power BI Data Analyst",
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-300",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "PL-300能力范围覆盖数据准备、建模、可视化、分析、Power Query、DAX和Power BI资产管理。"
+    },
+    {
+      "id": "SRC-PANDAS-TUTORIALS",
+      "title": "Getting started tutorials | pandas",
+      "publisher": "pandas",
+      "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "pandas官方教程覆盖表格数据读写、筛选、派生列、统计、重塑、合并、时间序列、文本处理和绘图。"
+    },
+    {
+      "id": "SRC-MICROSOFT-DP203",
+      "title": "Study guide for Exam DP-203: Data Engineering on Microsoft Azure",
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-203",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "DP-203能力范围描述结构化、非结构化与流式数据的集成转换，以及数据管道、数据存储和批流处理。"
+    },
+    {
+      "id": "SRC-SPARK-QUICKSTART",
+      "title": "Quick Start | Apache Spark",
+      "publisher": "Apache Spark",
+      "url": "https://spark.apache.org/docs/latest/quick-start.html",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Spark官方快速入门覆盖Dataset/DataFrame、转换与动作、缓存和分布式数据处理。"
+    },
+    {
+      "id": "SRC-FLINK-DOCS",
+      "title": "Apache Flink Documentation",
+      "publisher": "Apache Flink",
+      "url": "https://nightlies.apache.org/flink/flink-docs-stable/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Flink官方文档覆盖有状态流处理、有限与无限数据流、Table/SQL、DataStream、容错和部署。"
+    },
+    {
+      "id": "SRC-AIRFLOW-CONCEPTS",
+      "title": "Apache Airflow Core Concepts",
+      "publisher": "Apache Airflow",
+      "url": "https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Airflow官方核心概念覆盖DAG、任务、依赖、调度、重试、超时和执行器。"
+    },
+    {
+      "id": "SRC-GOOGLE-MLCC",
+      "title": "Machine Learning Crash Course",
+      "publisher": "Google for Developers",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Google机器学习速成课程覆盖数据、模型、训练、评估、分类、过拟合和生产ML基础。"
+    },
+    {
+      "id": "SRC-PYTORCH-BASICS",
+      "title": "Learn the Basics | PyTorch",
+      "publisher": "PyTorch",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "PyTorch官方基础教程覆盖张量、数据集、模型构建、自动微分、优化和模型保存加载。"
+    },
+    {
+      "id": "SRC-OPENCV-TUTORIALS",
+      "title": "OpenCV Tutorials",
+      "publisher": "OpenCV",
+      "url": "https://docs.opencv.org/5.0/tutorials/tutorials.html",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "OpenCV官方教程覆盖图像处理、视频分析、相机标定、特征、目标检测和DNN模块。"
+    },
+    {
+      "id": "SRC-HF-LLM-COURSE",
+      "title": "Hugging Face LLM Course",
+      "publisher": "Hugging Face",
+      "url": "https://huggingface.co/learn/llm-course/en/chapter1/1?fw=pt",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Hugging Face课程覆盖NLP、Transformer、Datasets、Tokenizers、模型使用与微调等LLM基础。"
+    },
+    {
+      "id": "SRC-STM32-CUBEIDE",
+      "title": "STM32CubeIDE",
+      "publisher": "STMicroelectronics",
+      "url": "https://www.st.com/en/development-tools/stm32cubeide.html",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "ST官方说明STM32CubeIDE用于STM32的C/C++代码编辑、编译、调试，并支持寄存器、内存、RTOS调试和故障分析。"
+    },
+    {
+      "id": "SRC-FREERTOS-DOCS",
+      "title": "FreeRTOS Documentation",
+      "publisher": "FreeRTOS",
+      "url": "https://www.freertos.org/Documentation/00-Overview",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "FreeRTOS官方文档覆盖任务调度、队列、信号量、软件定时器和微控制器实时应用。"
+    },
+    {
+      "id": "SRC-YOCTO-DOCS",
+      "title": "Yocto Project Documentation",
+      "publisher": "Yocto Project",
+      "url": "https://docs.yoctoproject.org/current/",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Yocto官方文档覆盖定制嵌入式Linux镜像、工具链、BSP、内核、构建和安全。"
+    },
+    {
+      "id": "SRC-LINUX-DRIVER-API",
+      "title": "Linux Driver Implementer's API Guide",
+      "publisher": "The Linux Kernel",
+      "url": "https://docs.kernel.org/driver-api/index.html",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Linux内核官方驱动API指南覆盖驱动模型、设备绑定、总线、平台设备及各类驱动接口。"
+    },
+    {
+      "id": "SRC-AWS-IOT-PROTOCOLS",
+      "title": "Device communication protocols | AWS IoT Core",
+      "publisher": "Amazon Web Services",
+      "url": "https://docs.aws.amazon.com/iot/latest/developerguide/protocols.html",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "AWS IoT官方文档说明设备通过MQTT、MQTT over WSS和HTTPS等协议安全通信。"
+    },
+    {
+      "id": "SRC-POSTGRESQL-BACKUP",
+      "title": "Backup and Restore | PostgreSQL",
+      "publisher": "PostgreSQL Global Development Group",
+      "url": "https://www.postgresql.org/docs/current/backup.html",
+      "tier": "official",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "PostgreSQL官方文档覆盖SQL转储、文件系统备份和连续归档与时间点恢复。"
+    },
+    {
+      "id": "SRC-MYSQL-OPTIMIZATION",
+      "title": "Optimization | MySQL Reference Manual",
+      "publisher": "Oracle MySQL",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/optimization.html",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "MySQL官方优化文档覆盖查询、索引、数据类型、存储引擎、EXPLAIN、缓存、锁和基准测试。"
+    },
+    {
+      "id": "SRC-MICROSOFT-PURVIEW",
+      "title": "Data governance with Microsoft Purview",
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/purview/data-governance-overview",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Microsoft Purview官方概览覆盖数据地图、目录、元数据、数据质量、血缘和治理职责。"
+    },
+    {
+      "id": "SRC-UNITY-JUNIOR",
+      "title": "Junior Programmer Pathway",
+      "publisher": "Unity Learn",
+      "url": "https://learn.unity.com/pathway/junior-programmer?uv=2020.3",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Unity官方学习路径覆盖脚本、交互、调试、版本控制和初级Unity开发能力。"
+    },
+    {
+      "id": "SRC-UNREAL-GETSTARTED",
+      "title": "Get Started | Unreal Engine",
+      "publisher": "Epic Games",
+      "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/get-started",
+      "tier": "vendor",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Unreal Engine官方入门资料覆盖C++、Blueprint和实时三维交互内容开发。"
+    },
+    {
+      "id": "SRC-KHRONOS-OPENGL",
+      "title": "Getting Started | OpenGL Wiki",
+      "publisher": "Khronos Group",
+      "url": "https://wikis.khronos.org/opengl/Getting_Started",
+      "tier": "industry",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Khronos OpenGL入门资料覆盖图形上下文、函数加载、渲染循环及C/C++绑定基础。"
+    },
+    {
+      "id": "SRC-KHRONOS-OPENXR",
+      "title": "OpenXR",
+      "publisher": "Khronos Group",
+      "url": "https://www.khronos.org/openxr/",
+      "tier": "industry",
+      "publishedAt": null,
+      "retrievedAt": "2026-09-14",
+      "summary": "Khronos OpenXR定义跨平台AR、VR和XR应用访问设备、控制器、跟踪、会话与帧循环的标准接口。"
+    }
+  ]
+}

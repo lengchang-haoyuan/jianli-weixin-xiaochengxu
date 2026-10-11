@@ -1,0 +1,16 @@
+{
+  "name": "career-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "scripts": {
+    "test": "node --test ../../tests/cloudfunctions/career-assistant.test.js"
+  },
+  "dependencies": {
+    "@cloudbase/node-sdk": "3.17.2",
+    "wx-server-sdk": "4.0.2"
+  }
+}

@@ -1,0 +1,40 @@
+<view class="screen screen--with-action recommendation-screen">
+  <view class="page-title">岗位方向票夹</view>
+  <view class="page-copy">横滑比较三个方向，选择一至三个生成对应简历。分数是证据覆盖参考，不代表录用概率。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error">{{errorMessage}}</view>
+  <view wx:elif="{{loading}}" class="status-banner">正在读取岗位分析结果…</view>
+
+  <swiper wx:else class="role-swiper" current="{{currentIndex}}" bindchange="onSwiperChange" previous-margin="0rpx" next-margin="44rpx">
+    <swiper-item wx:for="{{roleCards}}" wx:key="directionId">
+      <view class="role-ticket {{item.selected ? 'role-ticket--selected' : ''}}">
+        <view class="role-ticket__head">
+          <text>{{index + 1}} / 3 · {{item.categoryName}}</text>
+          <text class="role-ticket__state">{{item.score}}分 · {{item.band}}</text>
+        </view>
+        <view class="role-ticket__title">{{item.name}}</view>
+        <view class="role-ticket__copy">{{item.description}}</view>
+        <view class="role-ticket__divider"></view>
+        <view class="role-field">
+          <text class="role-field__label">核心能力</text>
+          <text class="role-field__value">{{item.coreSkillsText}}</text>
+        </view>
+        <view class="role-field">
+          <text class="role-field__label">已确认支持证据</text>
+          <view wx:if="{{item.evidence.length}}">
+            <view wx:for="{{item.evidence}}" wx:for-item="evidence" wx:key="quote" class="evidence-line">“{{evidence.quote}}”</view>
+          </view>
+          <text wx:else class="role-field__value role-field__value--muted">当前简历中的直接证据较少</text>
+        </view>
+        <button class="select-ticket {{item.selected ? 'select-ticket--active' : ''}}" data-id="{{item.directionId}}" bindtap="toggleRole">{{item.selected ? '已选择' : '选择这个方向'}}</button>
+      </view>
+    </swiper-item>
+  </swiper>
+
+  <view wx:if="{{!loading && !errorMessage}}" class="role-position">当前查看 {{currentIndex + 1}} / 3 · 已选择 {{selectedCount}} / 3</view>
+  <view class="status-banner">联系方式未发送给 DeepSeek；生成成功才扣减一次完整生成额度。</view>
+</view>
+
+<view class="action-bar">
+  <button class="button button--primary" disabled="{{loading || errorMessage || selectedCount === 0}}" bindtap="startGeneration">生成 {{selectedCount}} 个方向简历</button>
+</view>

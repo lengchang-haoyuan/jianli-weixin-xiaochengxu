@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/privacy/index",
+    "pages/upload/index",
+    "pages/review/index",
+    "pages/preferences/index",
+    "pages/questionnaire/index",
+    "pages/supplement/index",
+    "pages/recommendations/index",
+    "pages/progress/index",
+    "pages/editor/index",
+    "pages/templates/index",
+    "pages/result/index",
+    "pages/history/index"
+  ],
+  "window": {
+    "backgroundColor": "#F4F1E8",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F4F1E8",
+    "navigationBarTitleText": "简历优化助手",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}

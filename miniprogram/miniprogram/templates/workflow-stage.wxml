@@ -1,0 +1,33 @@
+<template name="workflowStage">
+  <view class="screen screen--with-action">
+    <view class="page-title">{{title}}</view>
+    <view class="page-copy">{{description}}</view>
+
+    <view class="ticket">
+      <view class="ticket__body">
+        <view class="stage-meta">
+          <text class="stage-meta__phase">{{phase}}</text>
+          <text class="stage-meta__status">{{status}}</text>
+        </view>
+      </view>
+      <view class="ticket__cut"></view>
+      <view class="ticket__body">
+        <view class="stage-list">
+          <view class="stage-list__item" wx:for="{{items}}" wx:key="name">
+            <text class="stage-list__name">{{item.name}}</text>
+            <text class="stage-list__status">{{item.status}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="status-banner">当前仅提供页面骨架，未启用的功能不会上传文件、调用 AI 或扣减额度。</view>
+  </view>
+
+  <view class="action-bar">
+    <view class="action-bar__row">
+      <button class="button button--secondary" bindtap="backHome">返回首页</button>
+      <button class="button button--primary" disabled="{{!enabled}}" bindtap="handlePrimary">{{primaryLabel}}</button>
+    </view>
+  </view>
+</template>

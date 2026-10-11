@@ -1,0 +1,93 @@
+<view class="screen screen--with-action generated-screen">
+  <view class="page-title">编辑岗位简历</view>
+  <view class="page-copy">逐段核对并修改措辞。岗位方向和联系方式不可编辑；事实编号仅记录 AI 生成时的依据，不会随手工修改重算。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error" aria-label="操作失败：{{errorMessage}}">
+    <view>{{errorMessage}}</view>
+    <button wx:if="{{taskId}}" class="status-action" disabled="{{loading || operation}}" bindtap="reloadTask">重新载入最新版本</button>
+    <button wx:else class="status-action" bindtap="goHome">返回首页</button>
+  </view>
+  <view wx:elif="{{statusMessage}}" class="status-banner" aria-label="操作结果：{{statusMessage}}">{{statusMessage}}</view>
+  <view wx:if="{{loading}}" class="status-banner" aria-label="正在读取生成结果">正在读取生成结果…</view>
+
+  <swiper
+    wx:if="{{!loading && versions.length > 0}}"
+    class="generated-swiper"
+    current="{{currentIndex}}"
+    disable-touch="{{operation ? true : false}}"
+    bindchange="onSwiperChange"
+  >
+    <swiper-item wx:for="{{versions}}" wx:for-item="version" wx:for-index="versionIndex" wx:key="versionId">
+      <scroll-view class="generated-scroll" scroll-y="true">
+        <view class="generated-ticket">
+          <view class="generated-ticket__head">
+            <view class="generated-ticket__meta">{{versionIndex + 1}} / {{versions.length}} · {{version.roleName}}</view>
+            <view class="version-status version-status--{{version.status === 'CONFIRMED' ? 'confirmed' : 'draft'}}">{{version.status === 'CONFIRMED' ? '已确认' : (version.dirty ? '未保存' : '草稿已保存')}}</view>
+          </view>
+
+          <view class="field-label">简历标题</view>
+          <input
+            class="title-input"
+            value="{{version.resumeTitle}}"
+            maxlength="100"
+            disabled="{{version.status === 'CONFIRMED' || operation}}"
+            data-version-index="{{versionIndex}}"
+            aria-label="编辑简历标题"
+            bindinput="onTitleInput"
+          />
+
+          <view wx:if="{{version.contactBlock}}" class="contact-block">
+            <view class="locked-label">联系方式 · 已锁定</view>
+            <view>{{version.contactBlock}}</view>
+          </view>
+
+          <view wx:for="{{version.sections}}" wx:for-item="section" wx:for-index="sectionIndex" wx:key="viewKey" class="generated-section">
+            <view class="generated-section__title">{{section.section}}</view>
+            <textarea
+              class="section-editor"
+              value="{{section.text}}"
+              maxlength="6000"
+              auto-height="true"
+              disabled="{{version.status === 'CONFIRMED' || operation}}"
+              data-version-index="{{versionIndex}}"
+              data-section-index="{{sectionIndex}}"
+              aria-label="编辑{{section.section}}段落"
+              bindinput="onSectionInput"
+            ></textarea>
+            <view class="generated-section__facts">生成时依据：{{section.factIdsText}}</view>
+          </view>
+
+          <view class="greeting-title">打招呼语</view>
+          <textarea
+            wx:for="{{version.greetings}}"
+            wx:for-item="greeting"
+            wx:for-index="greetingIndex"
+            wx:key="viewKey"
+            class="greeting-editor"
+            value="{{greeting.text}}"
+            maxlength="500"
+            auto-height="true"
+            disabled="{{version.status === 'CONFIRMED' || operation}}"
+            data-version-index="{{versionIndex}}"
+            data-greeting-index="{{greetingIndex}}"
+            aria-label="编辑第{{greetingIndex + 1}}条打招呼语"
+            bindinput="onGreetingInput"
+          ></textarea>
+        </view>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+
+  <view wx:if="{{!loading && versions.length > 0}}" class="result-position">当前编辑 {{currentIndex + 1}} / {{versions.length}}</view>
+</view>
+
+<view wx:if="{{!loading && versions.length > 0}}" class="action-bar">
+  <view wx:if="{{currentStatus === 'CONFIRMED'}}" class="action-bar__row">
+    <button class="button button--secondary" disabled="{{operation}}" bindtap="goHome">返回首页</button>
+    <button class="button button--primary" disabled="{{operation}}" bindtap="goTemplates">选择模板并导出</button>
+  </view>
+  <view wx:else class="action-bar__row">
+    <button class="button button--secondary" loading="{{operation === 'saving'}}" disabled="{{loading || operation}}" bindtap="saveCurrentDraft">{{operation === 'saving' ? '正在保存…' : (currentDirty ? '保存草稿' : '草稿已保存')}}</button>
+    <button class="button button--primary" loading="{{operation === 'confirming'}}" disabled="{{loading || operation}}" bindtap="confirmCurrentVersion">{{operation === 'confirming' ? '正在确认…' : '确认导出基线'}}</button>
+  </view>
+</view>

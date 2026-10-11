@@ -1,0 +1,49 @@
+<view class="screen result-screen">
+  <view class="page-title">下载与打招呼语</view>
+  <view class="page-copy">文件来自已确认版本。短期链接过期后可免费重新导出，不会再次调用 AI。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error" aria-label="操作失败：{{errorMessage}}">
+    <view>{{errorMessage}}</view>
+    <button class="status-action" disabled="{{loading || operation}}" bindtap="retry">重新生成文件</button>
+  </view>
+  <view wx:elif="{{loading}}" class="status-banner" aria-label="正在生成导出文件">正在生成 DOCX、PDF 与分页预览…</view>
+
+  <view wx:if="{{!loading && bundle}}" class="export-head">
+    <view class="export-head__meta">{{bundle.templateName}} · {{bundle.pageCount}} 页 · V{{bundle.templateVersion}}</view>
+    <view class="export-head__title">{{bundle.resumeTitle}}</view>
+    <view class="export-head__role">{{bundle.roleName}}</view>
+  </view>
+
+  <scroll-view wx:if="{{!loading && bundle}}" class="preview-scroll" scroll-x="true" enhanced="true" show-scrollbar="false">
+    <view class="preview-row">
+      <view wx:for="{{bundle.previewUrls}}" wx:key="*this" class="preview-page">
+        <image class="preview-image" src="{{item}}" mode="widthFix" aria-label="简历第{{index + 1}}页预览"></image>
+        <view class="preview-number">{{index + 1}} / {{bundle.pageCount}}</view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <view wx:if="{{!loading && bundle}}" class="file-actions">
+    <button class="file-ticket" data-kind="docx" loading="{{operation === 'docx'}}" disabled="{{operation}}" bindtap="openExportFile">
+      <view class="file-ticket__type">DOCX</view>
+      <view class="file-ticket__copy">可继续编辑 · 点击打开或转发</view>
+    </button>
+    <button class="file-ticket" data-kind="pdf" loading="{{operation === 'pdf'}}" disabled="{{operation}}" bindtap="openExportFile">
+      <view class="file-ticket__type">PDF</view>
+      <view class="file-ticket__copy">版式固定 · 点击打开或转发</view>
+    </button>
+  </view>
+
+  <view wx:if="{{!loading && bundle}}" class="section-title">打招呼语</view>
+  <view wx:if="{{!loading && bundle}}" class="greeting-list">
+    <view wx:for="{{greetings}}" wx:key="viewKey" class="greeting-card">
+      <view class="greeting-card__index">MESSAGE {{index + 1}}</view>
+      <view class="greeting-card__text" user-select="true">{{item.text}}</view>
+      <button class="greeting-card__action" data-index="{{index}}" disabled="{{operation}}" bindtap="copyGreeting">复制这条</button>
+    </view>
+  </view>
+
+  <button wx:if="{{!loading && bundle}}" class="text-button" disabled="{{operation}}" bindtap="switchTemplate">切换模板并重新导出</button>
+  <view wx:if="{{!loading && bundle}}" class="status-banner">导出不会扣减“今日完整生成额度”；只有成功完成 AI 简历生成才计入额度。</view>
+</view>
+

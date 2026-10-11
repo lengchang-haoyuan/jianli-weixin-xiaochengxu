@@ -1,0 +1,107 @@
+<!--
+THESIS: One verified resume opens several technical job tickets; this rejects the generic AI dashboard.
+OWN-WORLD: Warm paper, carbon ink, goldenrod ticket codes, and deep green selected states.
+STORY: The user chooses a job-search mode, understands the privacy boundary, and starts with one source resume.
+FIRST VIEWPORT: Identity and quota lead into one full-width ticket, two touch-sized mode controls, the four-stage route, and a safe-area primary action.
+FORM: Mobile job-direction ticket wallet; grounded direction 6, seed 9144d8a8, challenger rw-timetable-slide-rack.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+-->
+<view class="screen screen--with-action home-screen">
+  <view class="home-header">
+    <view>
+      <view class="brand">简历优化助手</view>
+      <view class="home-title">一份真实经历，整理出多条岗位方向</view>
+    </view>
+    <button class="history-link" aria-label="查看历史记录" bindtap="goHistory">历史</button>
+  </view>
+
+  <view wx:if="{{showResumeSaveNotice}}" class="status-banner status-banner--success">
+    <view class="save-notice__title">简历事实已保存</view>
+    <view class="save-notice__copy">确认后的文字已安全保存；上传与事实核对不会扣减完整生成额度。</view>
+  </view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error">
+    <text>{{errorMessage}}</text>
+    <button class="inline-action" bindtap="retrySession">重新连接</button>
+  </view>
+
+  <view wx:elif="{{loading}}" class="status-banner">正在连接你的个人云空间…</view>
+
+  <view wx:else class="quota-strip">
+    <text class="quota-strip__label">今日完整生成额度</text>
+    <text class="quota-strip__value">{{quotaRemaining}} / {{quotaLimit}}</text>
+  </view>
+
+  <view class="ticket home-ticket">
+    <view class="ticket__body">
+      <view class="ticket-code">
+        <text>JOB DIRECTION</text>
+        <text>V1</text>
+      </view>
+      <view class="ticket-title">选择本次求职身份</view>
+      <view class="mode-switch" role="group" aria-label="求职身份选择">
+        <button
+          class="mode-option {{mode === 'student' ? 'mode-option--active' : ''}}"
+          data-mode="student"
+          aria-label="选择实习或校招"
+          bindtap="selectMode"
+        >实习 / 校招</button>
+        <button
+          class="mode-option {{mode === 'social' ? 'mode-option--active' : ''}}"
+          data-mode="social"
+          aria-label="选择社会招聘"
+          bindtap="selectMode"
+        >社会招聘</button>
+      </view>
+      <view class="mode-note">{{modeDescription}}</view>
+    </view>
+
+    <view class="ticket__cut"></view>
+
+    <view class="ticket__body">
+      <view class="route-list">
+        <view class="route-row">
+          <text class="route-row__code">01</text>
+          <view class="route-row__content">
+            <text class="route-row__title">上传基础简历</text>
+            <text class="route-row__copy">DOCX 或可提取文字的 PDF</text>
+          </view>
+          <text class="route-row__state">P3</text>
+        </view>
+        <view class="route-row">
+          <text class="route-row__code">02</text>
+          <view class="route-row__content">
+            <text class="route-row__title">核对原始事实</text>
+            <text class="route-row__copy">不把推断写成你的经历</text>
+          </view>
+          <text class="route-row__state">P3</text>
+        </view>
+        <view class="route-row">
+          <text class="route-row__code">03</text>
+          <view class="route-row__content">
+            <text class="route-row__title">选择岗位方向</text>
+            <text class="route-row__copy">最多从三个推荐方向中选择</text>
+          </view>
+          <text class="route-row__state">P4</text>
+        </view>
+        <view class="route-row">
+          <text class="route-row__code">04</text>
+          <view class="route-row__content">
+            <text class="route-row__title">生成与核对简历</text>
+            <text class="route-row__copy">每个方向单独生成并保留原意</text>
+          </view>
+          <text class="route-row__state">P4</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="fact-boundary">
+    <view class="fact-boundary__title">事实边界</view>
+    <view class="fact-boundary__copy">原文件只用于提取文字并在服务端立即删除；岗位分析仅使用确认后的文字，联系方式不会发送给 DeepSeek。</view>
+  </view>
+</view>
+
+<view class="action-bar">
+  <button class="button button--primary" disabled="{{loading || errorMessage}}" bindtap="goPrimary">{{hasConfirmedResume ? '开始岗位方向分析' : '上传基础简历'}}</button>
+</view>

@@ -1,0 +1,24 @@
+# Local secrets and developer-specific WeChat settings
+**/.env
+**/.env.*
+!**/.env.example
+**/project.private.config.json
+
+# Dependencies and generated Python files
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+
+# Local working data and generated assets
+/backups/
+/outputs/
+/work/
+/.impeccable/
+/docs/ai-worklogs/
+/project.config.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

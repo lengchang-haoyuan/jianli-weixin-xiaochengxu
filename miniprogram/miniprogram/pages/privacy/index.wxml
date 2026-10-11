@@ -1,0 +1,40 @@
+<view class="screen screen--with-action privacy-screen">
+  <view class="page-title">先确认数据如何使用</view>
+  <view class="page-copy">同意前不会创建你的个人记录，也不会上传简历或调用 AI。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error">{{errorMessage}}</view>
+
+  <view class="privacy-list">
+    <view class="privacy-item">
+      <view class="privacy-item__title">个人云空间</view>
+      <view class="privacy-item__copy">求职模式、隐私同意记录和每日额度保存在微信云开发中，并按当前微信身份隔离。</view>
+    </view>
+    <view class="privacy-item">
+      <view class="privacy-item__title">简历文件</view>
+      <view class="privacy-item__copy">支持 DOCX/PDF 上传；不做图片识别。原文件仅用于提取文字，服务端处理结束后立即删除。</view>
+    </view>
+    <view class="privacy-item">
+      <view class="privacy-item__title">DeepSeek 处理</view>
+      <view class="privacy-item__copy">岗位分析和生成阶段会移除姓名、电话、邮箱等联系方式，只发送完成任务所需的最小化简历事实。</view>
+    </view>
+    <view class="privacy-item">
+      <view class="privacy-item__title">保存与删除</view>
+      <view class="privacy-item__copy">只在你核对确认后保存简历文字。个人数据保存到你主动删除或产品停止服务；你可以在历史页清空，删除后不可恢复。</view>
+    </view>
+  </view>
+
+  <checkbox-group bindchange="onConsentChange">
+    <label class="consent-row">
+      <checkbox value="accepted" checked="{{accepted}}" color="#1F6B4F" />
+      <text>我已阅读并同意以上处理方式</text>
+    </label>
+  </checkbox-group>
+
+  <button class="text-button" bindtap="leaveMiniProgram">暂不使用并退出</button>
+</view>
+
+<view class="action-bar">
+  <button class="button button--primary" disabled="{{!accepted || submitting}}" bindtap="submitConsent">
+    {{submitting ? '正在保存…' : '同意并继续'}}
+  </button>
+</view>

@@ -1,0 +1,12 @@
+{
+  "name": "user-center",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test ../../tests/cloudfunctions/user-center.test.js"
+  },
+  "dependencies": {
+    "wx-server-sdk": "~2.4.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "resume-parser",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.15.0 <19"
+  },
+  "scripts": {
+    "test": "node --test ../../tests/cloudfunctions/resume-parser.test.js"
+  },
+  "dependencies": {
+    "mammoth": "1.12.3",
+    "pdfjs-dist": "4.8.69",
+    "wx-server-sdk": "4.0.2"
+  }
+}

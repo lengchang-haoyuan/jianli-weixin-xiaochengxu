@@ -1,0 +1,2 @@
+<import src="../../templates/workflow-stage.wxml" />
+<template is="workflowStage" data="{{title, description, phase, status, items, primaryLabel, enabled}}" />

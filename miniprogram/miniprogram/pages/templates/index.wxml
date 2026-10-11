@@ -1,0 +1,53 @@
+<view class="screen screen--with-action template-screen">
+  <view class="page-title">选择简历模板</view>
+  <view class="page-copy">四套原创 A4 模板只改变排版，不改变已确认内容；切换模板和重复导出不会消耗 AI 额度。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error" aria-label="操作失败：{{errorMessage}}">{{errorMessage}}</view>
+  <view wx:elif="{{loading}}" class="status-banner" aria-label="正在读取确认版本">正在读取确认版本…</view>
+
+  <view wx:if="{{!loading && version}}" class="version-strip">
+    <view>
+      <view class="version-strip__label">CONFIRMED · {{version.roleName}}</view>
+      <view class="version-strip__title">{{version.resumeTitle}}</view>
+    </view>
+    <view class="version-strip__revision">R{{version.revision}}</view>
+  </view>
+
+  <view wx:if="{{!loading && version}}" class="template-list">
+    <button
+      wx:for="{{templates}}"
+      wx:key="id"
+      class="template-card template-card--{{item.id}} {{item.selected ? 'template-card--selected' : ''}}"
+      data-id="{{item.id}}"
+      disabled="{{operation}}"
+      bindtap="selectTemplate"
+      aria-label="选择{{item.name}}模板"
+    >
+      <view class="template-card__sample">
+        <view class="template-card__sample-title"></view>
+        <view class="template-card__sample-meta"></view>
+        <view class="template-card__sample-heading"></view>
+        <view class="template-card__sample-line"></view>
+        <view class="template-card__sample-line template-card__sample-line--short"></view>
+        <view class="template-card__sample-heading"></view>
+        <view class="template-card__sample-line"></view>
+      </view>
+      <view class="template-card__content">
+        <view class="template-card__tag">{{item.tag}} · {{item.accent}}</view>
+        <view class="template-card__name">{{item.name}}</view>
+        <view class="template-card__description">{{item.description}}</view>
+        <view class="template-card__state">{{item.selected ? '已选择' : '选择模板'}}</view>
+      </view>
+    </button>
+  </view>
+
+  <view wx:if="{{!loading && version}}" class="status-banner">文件会由私有渲染服务生成并短期提供下载链接；联系方式不会再次发送给 DeepSeek。</view>
+</view>
+
+<view class="action-bar">
+  <view class="action-bar__row">
+    <button class="button button--secondary" disabled="{{operation}}" bindtap="goEditor">返回核对</button>
+    <button class="button button--primary" loading="{{operation}}" disabled="{{loading || !version || operation}}" bindtap="renderSelectedTemplate">{{operation ? '正在生成文件…' : '生成 DOCX 与 PDF'}}</button>
+  </view>
+</view>
+

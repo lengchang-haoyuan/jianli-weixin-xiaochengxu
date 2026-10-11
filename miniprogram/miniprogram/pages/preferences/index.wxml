@@ -1,0 +1,32 @@
+<view class="screen screen--with-action preferences-screen">
+  <view class="page-title">设置求职方向</view>
+  <view class="page-copy">意向方向可以留空；留空时系统只根据你确认的简历事实推荐三个技术方向。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error">{{errorMessage}}</view>
+
+  <view class="ticket preferences-ticket">
+    <view class="ticket__body">
+      <view class="field-label">本次求职身份</view>
+      <view class="field-value">{{modeLabel}}</view>
+    </view>
+    <view class="ticket__cut"></view>
+    <view class="ticket__body">
+      <view class="field-label">意向方向（选填）</view>
+      <textarea class="intent-input" maxlength="60" placeholder="例如：Java 后端；不确定可留空" value="{{rawIntent}}" bindinput="onIntentInput"></textarea>
+      <view class="character-count">{{rawIntent.length}} / 60</view>
+
+      <view class="field-label language-label">输出语言</view>
+      <view class="language-switch" role="group" aria-label="输出语言">
+        <button class="language-option {{language === 'zh-CN' ? 'language-option--active' : ''}}" data-language="zh-CN" bindtap="selectLanguage">中文</button>
+        <button class="language-option {{language === 'en' ? 'language-option--active' : ''}}" data-language="en" bindtap="selectLanguage">英文</button>
+        <button class="language-option {{language === 'bilingual' ? 'language-option--active' : ''}}" data-language="bilingual" bindtap="selectLanguage">双语</button>
+      </view>
+    </view>
+  </view>
+
+  <view class="status-banner">方向匹配使用固定岗位标准，不会在运行时抓取招聘网站或具体职位。</view>
+</view>
+
+<view class="action-bar">
+  <button class="button button--primary" disabled="{{saving}}" bindtap="submitPreferences">{{saving ? '正在保存…' : '继续填写问卷'}}</button>
+</view>

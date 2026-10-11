@@ -1,0 +1,72 @@
+<view class="screen screen--with-action upload-screen">
+  <view class="page-title">上传基础简历</view>
+  <view class="page-copy">支持 DOCX 与带文字层的 PDF，单个文件不超过 10MB。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error">{{errorMessage}}</view>
+
+  <view class="ticket upload-ticket">
+    <view class="ticket__body">
+      <view class="ticket-code">
+        <text>RESUME SOURCE</text>
+        <text>P3</text>
+      </view>
+
+      <button
+        wx:if="{{!fileName}}"
+        class="file-picker"
+        disabled="{{busy}}"
+        aria-label="选择 DOCX 或 PDF 简历"
+        bindtap="onChooseFile"
+      >
+        <text class="file-picker__title">选择一份已有简历</text>
+        <text class="file-picker__copy">从微信聊天文件或本机文件中选择</text>
+      </button>
+
+      <view wx:else class="file-summary">
+        <view class="file-summary__main">
+          <text class="file-summary__name">{{fileName}}</text>
+          <text class="file-summary__meta">{{sourceType}} · {{fileSizeLabel}}</text>
+        </view>
+        <button class="replace-action" disabled="{{busy}}" bindtap="onChooseFile">更换</button>
+      </view>
+    </view>
+
+    <view class="ticket__cut"></view>
+
+    <view class="ticket__body">
+      <view class="process-status process-status--{{phase}}">
+        <view class="process-status__marker"></view>
+        <view class="process-status__content">
+          <view class="process-status__title">{{statusTitle}}</view>
+          <view class="process-status__copy">{{statusCopy}}</view>
+        </view>
+      </view>
+      <view class="format-list">
+        <view class="format-row">
+          <text>DOCX</text>
+          <text>直接提取段落文字</text>
+        </view>
+        <view class="format-row">
+          <text>PDF</text>
+          <text>必须能选中并复制文字</text>
+        </view>
+        <view class="format-row">
+          <text>OCR</text>
+          <text>不识别扫描图片</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="privacy-note">
+    <view class="privacy-note__title">临时文件处理</view>
+    <view class="privacy-note__copy">服务端提取结束后立即删除原文件，只在你下一页确认后保存文字。本阶段不调用 DeepSeek。</view>
+  </view>
+</view>
+
+<view class="action-bar">
+  <button class="button button--primary" loading="{{busy}}" disabled="{{busy}}" bindtap="onPrimaryAction">
+    {{primaryLabel}}
+  </button>
+</view>
+

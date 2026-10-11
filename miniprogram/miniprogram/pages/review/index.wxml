@@ -1,0 +1,51 @@
+<view class="screen screen--with-action review-screen">
+  <view class="page-title">核对简历事实</view>
+  <view class="page-copy">请直接修改识别错误或遗漏。只有你确认后的文字才会保存。</view>
+
+  <view wx:if="{{errorMessage}}" class="status-banner status-banner--error">{{errorMessage}}</view>
+
+  <view wx:if="{{hasDraft}}" class="source-strip">
+    <view class="source-strip__main">
+      <text class="source-strip__name">{{fileName}}</text>
+      <text class="source-strip__type">{{sourceLabel}} 已删除原文件</text>
+    </view>
+    <text class="source-strip__count">{{characterCount}} / {{maxCharacters}}</text>
+  </view>
+
+  <view wx:if="{{hasDraft}}" class="editor-ticket">
+    <view class="editor-ticket__label">EXTRACTED TEXT · P3</view>
+    <textarea
+      class="resume-editor"
+      value="{{text}}"
+      maxlength="{{maxCharacters}}"
+      cursor-spacing="120"
+      placeholder="请填写与原简历一致的文字"
+      aria-label="核对并编辑简历文字"
+      bindinput="onTextInput"
+    ></textarea>
+  </view>
+
+  <checkbox-group wx:if="{{hasDraft}}" bindchange="onConfirmationChange">
+    <label class="confirmation-row">
+      <checkbox value="confirmed" checked="{{accepted}}" color="#1F6B4F" />
+      <text>我已核对，以上内容与原简历事实一致</text>
+    </label>
+  </checkbox-group>
+
+  <view wx:if="{{hasDraft}}" class="fact-note">
+    <view class="fact-note__title">确认边界</view>
+    <view class="fact-note__copy">系统不会把推断写成你的经历。后续岗位方向分析只使用这份确认文字。</view>
+  </view>
+</view>
+
+<view class="action-bar">
+  <view class="action-bar__row">
+    <button class="button button--secondary" disabled="{{saving}}" bindtap="goBack">返回修改</button>
+    <button
+      class="button button--primary"
+      loading="{{saving}}"
+      disabled="{{!hasDraft || !accepted || saving}}"
+      bindtap="saveResumeFacts"
+    >{{saving ? '正在保存…' : '确认并保存'}}</button>
+  </view>
+</view>

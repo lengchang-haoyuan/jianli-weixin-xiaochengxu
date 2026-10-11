@@ -1,0 +1,253 @@
+@canvas: #f4f1e8;
+@surface: #fffdf6;
+@ink: #17211b;
+@muted: #667069;
+@line: #d8d4c9;
+@accent: #1f6b4f;
+@accent-ink: #ffffff;
+@signal: #d99a2b;
+@danger: #a43d32;
+
+page {
+  min-height: 100%;
+  background: @canvas;
+  color: @ink;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 30rpx;
+}
+
+view,
+button,
+text,
+swiper,
+swiper-item,
+checkbox {
+  box-sizing: border-box;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+button::after {
+  border: 0;
+}
+
+.screen {
+  min-height: 100vh;
+  padding: 40rpx 32rpx 64rpx;
+}
+
+.screen--with-action {
+  padding-bottom: calc(184rpx + env(safe-area-inset-bottom));
+}
+
+.page-title {
+  margin: 0 0 18rpx;
+  font-size: 52rpx;
+  font-weight: 720;
+  line-height: 1.18;
+  letter-spacing: -1rpx;
+}
+
+.page-copy {
+  color: @muted;
+  font-size: 29rpx;
+  line-height: 1.7;
+}
+
+.section-title {
+  margin: 56rpx 0 18rpx;
+  font-size: 34rpx;
+  font-weight: 680;
+  line-height: 1.35;
+}
+
+.ticket {
+  position: relative;
+  overflow: hidden;
+  margin-top: 32rpx;
+  border: 2rpx solid @ink;
+  border-radius: 28rpx;
+  background: @surface;
+}
+
+.ticket__body {
+  padding: 34rpx 30rpx;
+}
+
+.ticket__cut {
+  position: relative;
+  height: 28rpx;
+  border-top: 2rpx dashed @line;
+  border-bottom: 2rpx dashed @line;
+  background: @canvas;
+}
+
+.ticket__cut::before,
+.ticket__cut::after {
+  position: absolute;
+  top: 50%;
+  width: 30rpx;
+  height: 30rpx;
+  border: 2rpx solid @ink;
+  border-radius: 50%;
+  background: @canvas;
+  content: "";
+}
+
+.ticket__cut::before {
+  left: 0;
+  transform: translate(-55%, -50%);
+}
+
+.ticket__cut::after {
+  right: 0;
+  transform: translate(55%, -50%);
+}
+
+.status-banner {
+  margin-top: 24rpx;
+  padding: 22rpx 24rpx;
+  border-radius: 20rpx;
+  background: #e4eee8;
+  color: #184c3a;
+  font-size: 27rpx;
+  line-height: 1.55;
+}
+
+.status-banner--error {
+  background: #f5e3df;
+  color: #7f2e27;
+}
+
+.button {
+  display: flex;
+  min-height: 96rpx;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24rpx;
+  font-size: 31rpx;
+  font-weight: 680;
+}
+
+.button--primary {
+  background: @accent;
+  color: @accent-ink;
+}
+
+.button--secondary {
+  border: 2rpx solid @line;
+  background: @surface;
+}
+
+.button--danger {
+  border: 2rpx solid #cfaaa3;
+  color: @danger;
+}
+
+.button[disabled] {
+  background: #deddd6;
+  color: #888d88;
+}
+
+.text-button {
+  display: flex;
+  min-height: 88rpx;
+  align-items: center;
+  justify-content: center;
+  color: @accent;
+  font-size: 29rpx;
+  font-weight: 620;
+}
+
+.action-bar {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20rpx 32rpx calc(20rpx + env(safe-area-inset-bottom));
+  border-top: 2rpx solid @line;
+  background: rgba(244, 241, 232, 0.98);
+}
+
+.action-bar__row {
+  display: flex;
+  gap: 18rpx;
+}
+
+.action-bar__row .button {
+  flex: 1;
+}
+
+.stage-list {
+  border-top: 2rpx solid @line;
+}
+
+.stage-meta {
+  display: flex;
+  min-height: 64rpx;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24rpx;
+}
+
+.stage-meta__phase {
+  color: #7d5514;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 25rpx;
+  font-weight: 720;
+}
+
+.stage-meta__status {
+  color: @muted;
+  font-size: 26rpx;
+}
+
+.stage-list__item {
+  display: flex;
+  min-height: 96rpx;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24rpx;
+  border-bottom: 2rpx solid @line;
+}
+
+.stage-list__name {
+  font-size: 29rpx;
+  font-weight: 620;
+}
+
+.stage-list__status {
+  color: @muted;
+  font-size: 25rpx;
+  text-align: right;
+}
+
+.empty-state {
+  margin-top: 32rpx;
+  padding: 50rpx 30rpx;
+  border: 2rpx dashed @line;
+  border-radius: 24rpx;
+  background: rgba(255, 253, 246, 0.7);
+  text-align: center;
+}
+
+.empty-state__title {
+  font-size: 34rpx;
+  font-weight: 680;
+}
+
+.empty-state__copy {
+  margin-top: 14rpx;
+  color: @muted;
+  font-size: 27rpx;
+  line-height: 1.65;
+}

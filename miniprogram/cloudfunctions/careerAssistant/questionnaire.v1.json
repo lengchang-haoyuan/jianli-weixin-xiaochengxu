@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataVersion": "2026-09-14",
+  "title": "工作方式情境问卷",
+  "disclaimer": "本问卷只反映用户自报的工作方式倾向，不证明技术能力，也不作为录用结论。",
+  "skipMessage": "跳过后，系统将只根据简历事实进行匹配，无法提供工作方式相关的辅助判断。",
+  "answers": ["yes", "no", "unknown"],
+  "scoring": {
+    "positive": { "yes": 2, "unknown": 1, "no": 0 },
+    "reverse": { "no": 2, "unknown": 1, "yes": 0 },
+    "dimensionNormalization": "sum / maximumPossible * 100",
+    "resumeUsage": "只有用户确认后，才可将高分维度改写成克制的自我评价。"
+  },
+  "dimensions": [
+    { "id": "communication_collaboration", "name": "沟通与协作", "questionIds": ["Q01", "Q05"] },
+    { "id": "learning_problem_solving", "name": "学习与问题分析", "questionIds": ["Q02", "Q06"] },
+    { "id": "quality_discipline", "name": "质量与规范", "questionIds": ["Q03", "Q07"] },
+    { "id": "responsibility_initiative", "name": "责任与主动性", "questionIds": ["Q04", "Q09"] },
+    { "id": "planning_execution", "name": "计划与执行", "questionIds": ["Q10", "Q12"] },
+    { "id": "feedback_accountability", "name": "反馈与担当", "questionIds": ["Q08", "Q11"] }
+  ],
+  "questions": [
+    { "id": "Q01", "text": "接到需求但目标和验收标准不清楚时，我会先确认关键问题再开始。", "polarity": "positive", "dimensionId": "communication_collaboration" },
+    { "id": "Q02", "text": "需要使用陌生技术时，我会先查阅官方资料，并做一个小范围验证。", "polarity": "positive", "dimensionId": "learning_problem_solving" },
+    { "id": "Q03", "text": "时间很紧时，我通常会跳过自检，先把结果交出去再说。", "polarity": "reverse", "dimensionId": "quality_discipline" },
+    { "id": "Q04", "text": "发现进度可能延期时，只要还没完全确定，我就不会提前说明。", "polarity": "reverse", "dimensionId": "responsibility_initiative" },
+    { "id": "Q05", "text": "与同伴方案不一致时，我愿意结合事实和效果讨论，而不是只坚持自己的做法。", "polarity": "positive", "dimensionId": "communication_collaboration" },
+    { "id": "Q06", "text": "遇到程序错误时，我会先记录现象、复现条件和已尝试的方法。", "polarity": "positive", "dimensionId": "learning_problem_solving" },
+    { "id": "Q07", "text": "面对容易遗漏的重复任务时，我会使用清单、记录或合适的工具减少错误。", "polarity": "positive", "dimensionId": "quality_discipline" },
+    { "id": "Q08", "text": "用户反馈与我原来的判断冲突时，我愿意重新检查并根据事实调整。", "polarity": "positive", "dimensionId": "feedback_accountability" },
+    { "id": "Q09", "text": "任务受阻时，我更倾向于一直等待，直到别人主动来询问进度。", "polarity": "reverse", "dimensionId": "responsibility_initiative" },
+    { "id": "Q10", "text": "同时有多项任务时，我会先判断优先级，并持续记录完成情况。", "polarity": "positive", "dimensionId": "planning_execution" },
+    { "id": "Q11", "text": "如果错误是我造成的，我会尽量不提，以免影响别人对我的评价。", "polarity": "reverse", "dimensionId": "feedback_accountability" },
+    { "id": "Q12", "text": "出现临时故障或需求变化时，我能够先处理最重要的问题，并保持必要沟通。", "polarity": "positive", "dimensionId": "planning_execution" }
+  ]
+}

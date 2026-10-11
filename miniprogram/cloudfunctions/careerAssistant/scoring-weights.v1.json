@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataVersion": "2026-09-14",
+  "principles": [
+    "最终分数由确定性程序计算，模型只返回事实与标准的对应关系。",
+    "学校背景不得作为淘汰条件。",
+    "问卷只提供工作方式辅助信号，不得替代技术、项目、竞赛或工作经历证据。",
+    "问卷跳过时，其权重按已填写的其他维度重新归一化，不默认补分。"
+  ],
+  "profiles": {
+    "internship_campus": {
+      "name": "实习/校招",
+      "weights": {
+        "technology_projects": 40,
+        "internship_work": 20,
+        "major_courses": 20,
+        "competition_certificates": 10,
+        "education_school": 5,
+        "questionnaire": 5
+      }
+    },
+    "social_recruitment": {
+      "name": "社招",
+      "weights": {
+        "technology_projects": 35,
+        "internship_work": 40,
+        "major_courses": 10,
+        "competition_certificates": 5,
+        "education_school": 5,
+        "questionnaire": 5
+      }
+    }
+  },
+  "scoreBands": [
+    { "minInclusive": 80, "maxInclusive": 100, "label": "高匹配", "meaning": "已确认事实对该方向的核心要求覆盖较充分。" },
+    { "minInclusive": 65, "maxExclusive": 80, "label": "较匹配", "meaning": "具备主要基础，仍有明确可补足项。" },
+    { "minInclusive": 50, "maxExclusive": 65, "label": "可尝试", "meaning": "存在相邻经验，但准备成本较高。" },
+    { "minInclusive": 0, "maxExclusive": 50, "label": "暂不优先", "meaning": "当前事实证据不足，不代表用户没有发展潜力。" }
+  ],
+  "tieBreakers": [
+    "核心技能证据覆盖率较高者优先",
+    "已确认项目或工作证据较多者优先",
+    "准备成本较低者优先",
+    "仍相同时按role-taxonomy中的固定顺序"
+  ]
+}
